@@ -1,0 +1,8 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/yuanxiao/gold_hw/src/interfaces:msg/OreArray.msg",
+    "/home/yuanxiao/gold_hw/src/interfaces:msg/OreInfo.msg",
+    "/home/yuanxiao/gold_hw/src/interfaces:srv/OrePosition.srv"
+  ]
+}

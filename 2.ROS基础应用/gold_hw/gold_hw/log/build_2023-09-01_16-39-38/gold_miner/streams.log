@@ -1,0 +1,35 @@
+[0.027s] Invoking command in '/home/yuanxiao/gold_hw/build/gold_miner': CMAKE_PREFIX_PATH=/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yuanxiao/gold_hw/build/gold_miner -- -j4 -l4
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target mining_industry[0m
+[0.096s] [ 25%] [32mBuilding CXX object CMakeFiles/mining_industry.dir/src/mining_industry.cpp.o[0m
+[0.103s] [ 75%] Built target miner
+[2.539s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:[m[K In constructor ‘[01m[KMiningIndustry::MiningIndustry()[m[K’:
+[2.539s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:16:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMiningIndustry::create_wall_timer(std::_Bind_helper<false, void (MiningIndustry::*)(), MiningIndustry*>::type)[m[K’
+[2.539s]    16 |         timer_ = [01;31m[Kthis->create_wall_timer([m[K
+[2.539s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[2.539s]    17 | [01;31m[K//            std::chrono::milliseconds(1000),  //[m[K
+[2.539s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.539s]    18 | [01;31m[K            std::bind(&MiningIndustry::publishOreInfo, this)[m[K
+[2.539s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.539s]    19 | [01;31m[K        )[m[K;
+[2.539s]       |         [01;31m[K~[m[K                                
+[2.539s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.540s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.540s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.540s]                  from [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:1[m[K:
+[2.540s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[2.540s]   238 |   [01;36m[Kcreate_wall_timer[m[K(
+[2.540s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.540s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.540s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:16:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Bind<void (MiningIndustry::*(MiningIndustry*))()>[m[K’ is not derived from ‘[01m[Kstd::chrono::duration<_Rep1, _Period1>[m[K’
+[2.540s]    16 |         timer_ = [01;36m[Kthis->create_wall_timer([m[K
+[2.540s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[2.540s]    17 | [01;36m[K//            std::chrono::milliseconds(1000),  //[m[K
+[2.540s]       | [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.540s]    18 | [01;36m[K            std::bind(&MiningIndustry::publishOreInfo, this)[m[K
+[2.540s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.540s]    19 | [01;36m[K        )[m[K;
+[2.541s]       |         [01;36m[K~[m[K                                
+[3.500s] gmake[2]: *** [CMakeFiles/mining_industry.dir/build.make:76: CMakeFiles/mining_industry.dir/src/mining_industry.cpp.o] Error 1
+[3.500s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/mining_industry.dir/all] Error 2
+[3.501s] gmake: *** [Makefile:146: all] Error 2
+[3.503s] Invoked command in '/home/yuanxiao/gold_hw/build/gold_miner' returned '2': CMAKE_PREFIX_PATH=/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yuanxiao/gold_hw/build/gold_miner -- -j4 -l4

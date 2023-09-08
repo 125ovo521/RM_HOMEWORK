@@ -1,0 +1,357 @@
+[0.000000] (-) TimerEvent: {}
+[0.000187] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000259] (gold_miner) JobQueued: {'identifier': 'gold_miner', 'dependencies': OrderedDict([('interfaces', '/home/yuanxiao/gold_hw/install/interfaces')])}
+[0.000325] (gold_miner) JobStarted: {'identifier': 'gold_miner'}
+[0.024456] (gold_miner) JobProgress: {'identifier': 'gold_miner', 'progress': 'cmake'}
+[0.025266] (gold_miner) JobProgress: {'identifier': 'gold_miner', 'progress': 'build'}
+[0.026359] (gold_miner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuanxiao/gold_hw/build/gold_miner', '--', '-j4', '-l4'], 'cwd': '/home/yuanxiao/gold_hw/build/gold_miner', 'env': OrderedDict([('APPCODE_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/appcode.vmoptions'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GATEWAY_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/gateway.vmoptions'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'yuanxiao'), ('LC_TIME', 'zh_CN.UTF-8'), ('WEBSTORM_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/webstorm.vmoptions'), ('WEBIDE_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/webide.vmoptions'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuanxiao/gold_hw/install/interfaces/lib:/home/yuanxiao/dev_ws/install/learning_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuanxiao'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/yuanxiao/gold_hw/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DATASPELL_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/dataspell.vmoptions'), ('SYSTEMD_EXEC_PID', '1796'), ('DATAGRIP_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/datagrip.vmoptions'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b75d13af3f3b9e7e009815e664ed80af'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IDEA_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/idea.vmoptions'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuanxiao/gold_hw/install:/home/yuanxiao/dev_ws/install'), ('CLION_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/clion.vmoptions'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuanxiao'), ('JETBRAINSCLIENT_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/jetbrainsclient.vmoptions'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PHPSTORM_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/phpstorm.vmoptions'), ('USERNAME', 'yuanxiao'), ('TERM', 'xterm-256color'), ('STUDIO_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/studio.vmoptions'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yuanxiao/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ori:@/tmp/.ICE-unix/1796,unix/Ori:/tmp/.ICE-unix/1796'), ('PAPERSIZE', 'a4'), ('RIDER_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/rider.vmoptions'), ('DEVECOSTUDIO_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/devecostudio.vmoptions'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e8d71c6b_b2b6_4484_8a88_a1c77e8c084d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('GOLAND_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/goland.vmoptions'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AZ2691'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1014'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/yuanxiao/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('PYCHARM_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/pycharm.vmoptions'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RUBYMINE_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/rubymine.vmoptions'), ('PWD', '/home/yuanxiao/gold_hw/build/gold_miner'), ('JETBRAINS_CLIENT_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/jetbrains_client.vmoptions'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/yuanxiao/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b75d13af3f3b9e7e009815e664ed80af'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages:/home/yuanxiao/dev_ws/build/learning_urdf:/home/yuanxiao/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_topic:/home/yuanxiao/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_tf:/home/yuanxiao/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_service:/home/yuanxiao/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_qos:/home/yuanxiao/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_parameter:/home/yuanxiao/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_node:/home/yuanxiao/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_launch:/home/yuanxiao/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_action:/home/yuanxiao/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/yuanxiao/dev_ws/build/learning_gazebo:/home/yuanxiao/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble')]), 'shell': False}
+[0.086034] (gold_miner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mining_industry\x1b[0m\n'}
+[0.098079] (-) TimerEvent: {}
+[0.113348] (gold_miner) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/mining_industry.dir/src/mining_industry.cpp.o\x1b[0m\n'}
+[0.198539] (-) TimerEvent: {}
+[0.299403] (-) TimerEvent: {}
+[0.400640] (-) TimerEvent: {}
+[0.501676] (-) TimerEvent: {}
+[0.602691] (-) TimerEvent: {}
+[0.703735] (-) TimerEvent: {}
+[0.804195] (-) TimerEvent: {}
+[0.904565] (-) TimerEvent: {}
+[1.005485] (-) TimerEvent: {}
+[1.106039] (-) TimerEvent: {}
+[1.207187] (-) TimerEvent: {}
+[1.308077] (-) TimerEvent: {}
+[1.408778] (-) TimerEvent: {}
+[1.509255] (-) TimerEvent: {}
+[1.609873] (-) TimerEvent: {}
+[1.710250] (-) TimerEvent: {}
+[1.810687] (-) TimerEvent: {}
+[1.911684] (-) TimerEvent: {}
+[2.012725] (-) TimerEvent: {}
+[2.113533] (-) TimerEvent: {}
+[2.214391] (-) TimerEvent: {}
+[2.314996] (-) TimerEvent: {}
+[2.415978] (-) TimerEvent: {}
+[2.516378] (-) TimerEvent: {}
+[2.616711] (-) TimerEvent: {}
+[2.717072] (-) TimerEvent: {}
+[2.817862] (-) TimerEvent: {}
+[2.918661] (-) TimerEvent: {}
+[3.019178] (-) TimerEvent: {}
+[3.120070] (-) TimerEvent: {}
+[3.221021] (-) TimerEvent: {}
+[3.321979] (-) TimerEvent: {}
+[3.422350] (-) TimerEvent: {}
+[3.522764] (-) TimerEvent: {}
+[3.623774] (-) TimerEvent: {}
+[3.724155] (-) TimerEvent: {}
+[3.824768] (-) TimerEvent: {}
+[3.925459] (-) TimerEvent: {}
+[4.026410] (-) TimerEvent: {}
+[4.126720] (-) TimerEvent: {}
+[4.227590] (-) TimerEvent: {}
+[4.328386] (-) TimerEvent: {}
+[4.429259] (-) TimerEvent: {}
+[4.529628] (-) TimerEvent: {}
+[4.630125] (-) TimerEvent: {}
+[4.731085] (-) TimerEvent: {}
+[4.831701] (-) TimerEvent: {}
+[4.932021] (-) TimerEvent: {}
+[5.032362] (-) TimerEvent: {}
+[5.132894] (-) TimerEvent: {}
+[5.233823] (-) TimerEvent: {}
+[5.273121] (gold_miner) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable mining_industry\x1b[0m\n'}
+[5.335654] (-) TimerEvent: {}
+[5.436363] (-) TimerEvent: {}
+[5.512853] (gold_miner) StdoutLine: {'line': b'[ 50%] Built target mining_industry\n'}
+[5.526090] (gold_miner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target miner\x1b[0m\n'}
+[5.536716] (-) TimerEvent: {}
+[5.546425] (gold_miner) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/miner.dir/src/miner.cpp.o\x1b[0m\n'}
+[5.636953] (-) TimerEvent: {}
+[5.737395] (-) TimerEvent: {}
+[5.837868] (-) TimerEvent: {}
+[5.938517] (-) TimerEvent: {}
+[6.038910] (-) TimerEvent: {}
+[6.139335] (-) TimerEvent: {}
+[6.239863] (-) TimerEvent: {}
+[6.340382] (-) TimerEvent: {}
+[6.441198] (-) TimerEvent: {}
+[6.541573] (-) TimerEvent: {}
+[6.642608] (-) TimerEvent: {}
+[6.743280] (-) TimerEvent: {}
+[6.844128] (-) TimerEvent: {}
+[6.944656] (-) TimerEvent: {}
+[7.045586] (-) TimerEvent: {}
+[7.145927] (-) TimerEvent: {}
+[7.246465] (-) TimerEvent: {}
+[7.346900] (-) TimerEvent: {}
+[7.447710] (-) TimerEvent: {}
+[7.548597] (-) TimerEvent: {}
+[7.649295] (-) TimerEvent: {}
+[7.749798] (-) TimerEvent: {}
+[7.850363] (-) TimerEvent: {}
+[7.952861] (-) TimerEvent: {}
+[8.053498] (-) TimerEvent: {}
+[8.113635] (gold_miner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[8.113882] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.113957] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.114024] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.114089] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.114193] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.114313] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.114385] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.114450] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.114514] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:1\x1b[m\x1b[K:\n'}
+[8.114578] (gold_miner) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/client.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Client<interfaces::srv::OrePosition_Request_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.114645] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:125:1:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = interfaces::srv::OrePosition_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.114714] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:17:77:\x1b[m\x1b[K   required from here\n'}
+[8.114779] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:374:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.114847] (gold_miner) StderrLine: {'line': b'  374 |   using \x1b[01;31m\x1b[KRequest\x1b[m\x1b[K = typename ServiceT::Request;\n'}
+[8.114942] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.115344] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:375:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.115497] (gold_miner) StderrLine: {'line': b'  375 |   using \x1b[01;31m\x1b[KResponse\x1b[m\x1b[K = typename ServiceT::Response;\n'}
+[8.115642] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.115774] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:377:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.115907] (gold_miner) StderrLine: {'line': b'  377 |   using \x1b[01;31m\x1b[KSharedRequest\x1b[m\x1b[K = typename ServiceT::Request::SharedPtr;\n'}
+[8.116204] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.116293] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:378:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.116385] (gold_miner) StderrLine: {'line': b'  378 |   using \x1b[01;31m\x1b[KSharedResponse\x1b[m\x1b[K = typename ServiceT::Response::SharedPtr;\n'}
+[8.116453] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.116516] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:380:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.116581] (gold_miner) StderrLine: {'line': b'  380 |   using \x1b[01;31m\x1b[KPromise\x1b[m\x1b[K = std::promise<SharedResponse>;\n'}
+[8.116644] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.116708] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:381:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.116772] (gold_miner) StderrLine: {'line': b'  381 |   using \x1b[01;31m\x1b[KPromiseWithRequest\x1b[m\x1b[K = std::promise<std::pair<SharedRequest, SharedResponse>>;\n'}
+[8.116845] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.116909] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:383:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.116973] (gold_miner) StderrLine: {'line': b'  383 |   using \x1b[01;31m\x1b[KSharedPromise\x1b[m\x1b[K = std::shared_ptr<Promise>;\n'}
+[8.117036] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.117182] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:384:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.117253] (gold_miner) StderrLine: {'line': b'  384 |   using \x1b[01;31m\x1b[KSharedPromiseWithRequest\x1b[m\x1b[K = std::shared_ptr<PromiseWithRequest>;\n'}
+[8.117305] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.117351] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:386:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.117396] (gold_miner) StderrLine: {'line': b'  386 |   using \x1b[01;31m\x1b[KFuture\x1b[m\x1b[K = std::future<SharedResponse>;\n'}
+[8.117438] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.117480] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:387:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.117524] (gold_miner) StderrLine: {'line': b'  387 |   using \x1b[01;31m\x1b[KSharedFuture\x1b[m\x1b[K = std::shared_future<SharedResponse>;\n'}
+[8.117566] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.117607] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:388:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.117763] (gold_miner) StderrLine: {'line': b'  388 |   using \x1b[01;31m\x1b[KSharedFutureWithRequest\x1b[m\x1b[K = std::shared_future<std::pair<SharedRequest, SharedResponse>>;\n'}
+[8.117869] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.117937] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:390:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.118005] (gold_miner) StderrLine: {'line': b'  390 |   using \x1b[01;31m\x1b[KCallbackType\x1b[m\x1b[K = std::function<void (SharedFuture)>;\n'}
+[8.118069] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.118134] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:391:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.118200] (gold_miner) StderrLine: {'line': b'  391 |   using \x1b[01;31m\x1b[KCallbackWithRequestType\x1b[m\x1b[K = std::function<void (SharedFutureWithRequest)>;\n'}
+[8.118266] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.118329] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:513:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.118401] (gold_miner) StderrLine: {'line': b'  513 |   \x1b[01;31m\x1b[Ktake_response\x1b[m\x1b[K(typename ServiceT::Response & response_out, rmw_request_id_t & request_header_out)\n'}
+[8.118474] (gold_miner) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.118591] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.118663] (gold_miner) StderrLine: {'line': b'  643 |   \x1b[01;31m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[8.118727] (gold_miner) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.118790] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.118854] (gold_miner) StderrLine: {'line': b'  674 |   \x1b[01;31m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[8.118918] (gold_miner) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.118981] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:784:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.119044] (gold_miner) StderrLine: {'line': b'  784 |   using \x1b[01;31m\x1b[KCallbackTypeValueVariant\x1b[m\x1b[K = std::tuple<CallbackType, SharedFuture, Promise>;\n'}
+[8.119115] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.119180] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:785:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.119270] (gold_miner) StderrLine: {'line': b'  785 |   using \x1b[01;31m\x1b[KCallbackWithRequestTypeValueVariant\x1b[m\x1b[K = std::tuple<\n'}
+[8.119340] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.119410] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:788:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.119475] (gold_miner) StderrLine: {'line': b'  788 |   using \x1b[01;31m\x1b[KCallbackInfoVariant\x1b[m\x1b[K = std::variant<\n'}
+[8.119539] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.119610] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:809:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.119675] (gold_miner) StderrLine: {'line': b'  809 |   \x1b[01;31m\x1b[Kget_and_erase_pending_request\x1b[m\x1b[K(int64_t request_number)\n'}
+[8.119800] (gold_miner) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.119970] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:831:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.122847] (gold_miner) StderrLine: {'line': b'  831 |   \x1b[01;31m\x1b[Kpending_requests_\x1b[m\x1b[K;\n'}
+[8.123041] (gold_miner) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.123181] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMiner::Miner()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.123320] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:17:87:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<interfaces::srv::OrePosition>::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Client<interfaces::srv::OrePosition> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<interfaces::srv::OrePosition_Request_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Client<interfaces::srv::OrePosition_Request_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[8.123463] (gold_miner) StderrLine: {'line': b'   17 |  this->create_client<interfaces::srv::OrePosition::Request>("ore_srv"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[8.123610] (gold_miner) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.123767] (gold_miner) StderrLine: {'line': b'\n'}
+[8.123902] (gold_miner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[8.124037] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[8.124555] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:1\x1b[m\x1b[K:\n'}
+[8.124671] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Client<interfaces::srv::OrePosition>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.124758] (gold_miner) StderrLine: {'line': b'  363 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[8.124837] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.124914] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.124993] (gold_miner) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Client<interfaces::srv::OrePosition_Request_<std::allocator<void> > > >&; _Tp = rclcpp::Client<interfaces::srv::OrePosition>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.125113] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Client<interfaces::srv::OrePosition> >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Client<interfaces::srv::OrePosition> >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Client<interfaces::srv::OrePosition_Request_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.125231] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:17:87:\x1b[m\x1b[K   required from here\n'}
+[8.125333] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Client<interfaces::srv::OrePosition> >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.125417] (gold_miner) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[8.125534] (gold_miner) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.125617] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Client<interfaces::srv::OrePosition>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.125707] (gold_miner) StderrLine: {'line': b'  374 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[8.125831] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.125924] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.126002] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:17:87:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<interfaces::srv::OrePosition_Request_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Client<interfaces::srv::OrePosition_Request_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.126079] (gold_miner) StderrLine: {'line': b'   17 |  this->create_client<interfaces::srv::OrePosition::Request>("ore_srv"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[8.126143] (gold_miner) StderrLine: {'line': b'      |                                                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[8.126205] (gold_miner) StderrLine: {'line': b'\n'}
+[8.126268] (gold_miner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[8.126331] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[8.126394] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:1\x1b[m\x1b[K:\n'}
+[8.126456] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Client<interfaces::srv::OrePosition>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.126574] (gold_miner) StderrLine: {'line': b'  391 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[8.126646] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.126715] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.126781] (gold_miner) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Client<interfaces::srv::OrePosition_Request_<std::allocator<void> > > >; _Tp = rclcpp::Client<interfaces::srv::OrePosition>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.126857] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Client<interfaces::srv::OrePosition> >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Client<interfaces::srv::OrePosition> >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Client<interfaces::srv::OrePosition_Request_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.126922] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:17:87:\x1b[m\x1b[K   required from here\n'}
+[8.126984] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Client<interfaces::srv::OrePosition> >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.127050] (gold_miner) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[8.127112] (gold_miner) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.127175] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Client<interfaces::srv::OrePosition>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.127268] (gold_miner) StderrLine: {'line': b'  399 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[8.127392] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.127467] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.127530] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:17:87:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<interfaces::srv::OrePosition_Request_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Client<interfaces::srv::OrePosition_Request_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.127600] (gold_miner) StderrLine: {'line': b'   17 |  this->create_client<interfaces::srv::OrePosition::Request>("ore_srv"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[8.127663] (gold_miner) StderrLine: {'line': b'      |                                                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[8.127725] (gold_miner) StderrLine: {'line': b'\n'}
+[8.127787] (gold_miner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[8.127849] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[8.127911] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:1\x1b[m\x1b[K:\n'}
+[8.128000] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Client<interfaces::srv::OrePosition>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.128075] (gold_miner) StderrLine: {'line': b'  359 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[8.128138] (gold_miner) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.128207] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<interfaces::srv::OrePosition_Request_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Client<interfaces::srv::OrePosition_Request_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Client<interfaces::srv::OrePosition> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.128274] (gold_miner) StderrLine: {'line': b'  359 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[8.128338] (gold_miner) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.128400] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Client<interfaces::srv::OrePosition>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.128469] (gold_miner) StderrLine: {'line': b'  383 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[8.128533] (gold_miner) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.128594] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<interfaces::srv::OrePosition_Request_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Client<interfaces::srv::OrePosition_Request_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Client<interfaces::srv::OrePosition> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.128658] (gold_miner) StderrLine: {'line': b'  383 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[8.128766] (gold_miner) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[8.128833] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Miner::oreInfoCallback(const OreArray&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.128897] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:34:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvector\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.128960] (gold_miner) StderrLine: {'line': b'   34 |         \x1b[01;31m\x1b[Kvector\x1b[m\x1b[K<float> dis;\n'}
+[8.129022] (gold_miner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.129084] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:34:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[8.129147] (gold_miner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[8.129210] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[8.129272] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[8.129334] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[8.129425] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[8.129506] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.129570] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.129633] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.129742] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:1\x1b[m\x1b[K:\n'}
+[8.129806] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:389:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.129870] (gold_miner) StderrLine: {'line': b'  389 |     class \x1b[01;36m\x1b[Kvector\x1b[m\x1b[K : protected _Vector_base<_Tp, _Alloc>\n'}
+[8.129933] (gold_miner) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.129994] (gold_miner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[8.130062] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[8.130125] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[8.130232] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[8.130299] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.130362] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.130424] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.130486] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:1\x1b[m\x1b[K:\n'}
+[8.130548] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/vector:86:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::pmr::vector\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.130611] (gold_miner) StderrLine: {'line': b'   86 |       using \x1b[01;36m\x1b[Kvector\x1b[m\x1b[K = std::vector<_Tp, polymorphic_allocator<_Tp>>;\n'}
+[8.130673] (gold_miner) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.130735] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:34:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.130798] (gold_miner) StderrLine: {'line': b'   34 |         vector<\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K> dis;\n'}
+[8.130892] (gold_miner) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.130974] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:35:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst OreArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct interfaces::msg::OreArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.131045] (gold_miner) StderrLine: {'line': b'   35 |         int64_t n_ = msg.\x1b[01;31m\x1b[Ksize\x1b[m\x1b[K();\n'}
+[8.131109] (gold_miner) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.131176] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:37:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kconst OreArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst interfaces::msg::OreArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[8.131252] (gold_miner) StderrLine: {'line': b'   37 |             float_t mid = Distance(msg\x1b[01;31m\x1b[K[\x1b[m\x1b[Ki].opsition.x, msg[i].opsition.y,msg[i].opsition.z);\n'}
+[8.131315] (gold_miner) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.131377] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:37:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kconst OreArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst interfaces::msg::OreArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[8.131441] (gold_miner) StderrLine: {'line': b'   37 |             float_t mid = Distance(msg[i].opsition.x, msg\x1b[01;31m\x1b[K[\x1b[m\x1b[Ki].opsition.y,msg[i].opsition.z);\n'}
+[8.131503] (gold_miner) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.131566] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:37:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kconst OreArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst interfaces::msg::OreArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[8.131679] (gold_miner) StderrLine: {'line': b'   37 | at_t mid = Distance(msg[i].opsition.x, msg[i].opsition.y,msg\x1b[01;31m\x1b[K[\x1b[m\x1b[Ki].opsition.z);\n'}
+[8.131982] (gold_miner) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.135478] (gold_miner) StderrLine: {'line': b'\n'}
+[8.135616] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:38:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdis\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdiv\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.135686] (gold_miner) StderrLine: {'line': b'   38 |             \x1b[01;31m\x1b[Kdis\x1b[m\x1b[K.push_back(mid);\n'}
+[8.135751] (gold_miner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.135814] (gold_miner) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kdiv\x1b[m\x1b[K\n'}
+[8.139849] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:40:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdis\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdiv\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.140003] (gold_miner) StderrLine: {'line': b'   40 |         int64_t minPosition = min_element(\x1b[01;31m\x1b[Kdis\x1b[m\x1b[K.begin(),dis.end()) - dis.begin();\n'}
+[8.140085] (gold_miner) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.140150] (gold_miner) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[Kdiv\x1b[m\x1b[K\n'}
+[8.140444] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:40:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmin_element\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::min_element\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.140542] (gold_miner) StderrLine: {'line': b'   40 |         int64_t minPosition = \x1b[01;31m\x1b[Kmin_element\x1b[m\x1b[K(dis.begin(),dis.end()) - dis.begin();\n'}
+[8.140694] (gold_miner) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.140826] (gold_miner) StderrLine: {'line': b'      |                               \x1b[32m\x1b[Kstd::min_element\x1b[m\x1b[K\n'}
+[8.141061] (gold_miner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[8.141147] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[8.141214] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.141278] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.141341] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.141403] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:1\x1b[m\x1b[K:\n'}
+[8.141465] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:520:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::min_element\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[8.141529] (gold_miner) StderrLine: {'line': b'  520 | \x1b[01;36m\x1b[Kmin_element\x1b[m\x1b[K(_ExecutionPolicy&& __exec, _ForwardIterator __first, _ForwardIterator __last);\n'}
+[8.141599] (gold_miner) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.148002] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:45:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kores\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.148221] (gold_miner) StderrLine: {'line': b'   45 |         miner_x = \x1b[01;31m\x1b[Kores\x1b[m\x1b[K[minPosition].position.x;\n'}
+[8.148325] (gold_miner) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.154111] (-) TimerEvent: {}
+[8.254759] (-) TimerEvent: {}
+[8.355263] (-) TimerEvent: {}
+[8.455631] (-) TimerEvent: {}
+[8.556021] (-) TimerEvent: {}
+[8.657042] (-) TimerEvent: {}
+[8.757811] (-) TimerEvent: {}
+[8.858197] (-) TimerEvent: {}
+[8.959081] (-) TimerEvent: {}
+[9.059571] (-) TimerEvent: {}
+[9.161172] (-) TimerEvent: {}
+[9.261628] (-) TimerEvent: {}
+[9.362521] (-) TimerEvent: {}
+[9.463207] (-) TimerEvent: {}
+[9.563587] (-) TimerEvent: {}
+[9.664548] (-) TimerEvent: {}
+[9.765131] (-) TimerEvent: {}
+[9.866182] (-) TimerEvent: {}
+[9.966992] (-) TimerEvent: {}
+[10.067338] (-) TimerEvent: {}
+[10.168403] (-) TimerEvent: {}
+[10.232569] (gold_miner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[10.232757] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[10.232811] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[10.232858] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[10.232901] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[10.232956] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[10.232999] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.233069] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.233118] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.233160] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:1\x1b[m\x1b[K:\n'}
+[10.233200] (gold_miner) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/client.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<void> rclcpp::Client<ServiceT>::create_response() [with ServiceT = interfaces::srv::OrePosition_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.233244] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:523:3:\x1b[m\x1b[K   required from here\n'}
+[10.233285] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:525:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.233328] (gold_miner) StderrLine: {'line': b'  525 |     return std::shared_ptr<void>(\x1b[01;31m\x1b[Knew typename ServiceT::Response()\x1b[m\x1b[K);\n'}
+[10.233369] (gold_miner) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.233761] (gold_miner) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/client.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Client<ServiceT>::handle_response(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<void>) [with ServiceT = interfaces::srv::OrePosition_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.233846] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:546:3:\x1b[m\x1b[K   required from here\n'}
+[10.233893] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:551:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.233935] (gold_miner) StderrLine: {'line': b'  551 |     \x1b[01;31m\x1b[Koptional_pending_request\x1b[m\x1b[K = this->get_and_erase_pending_request(request_header->sequence_number);\n'}
+[10.234047] (gold_miner) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.234244] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:551:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.234329] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:556:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct interfaces::srv::OrePosition_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.234441] (gold_miner) StderrLine: {'line': b'  556 |     auto typed_response = \x1b[01;31m\x1b[Kstd::static_pointer_cast<typename ServiceT::Response>\x1b[m\x1b[K(\n'}
+[10.234562] (gold_miner) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.268514] (-) TimerEvent: {}
+[10.369606] (-) TimerEvent: {}
+[10.470669] (-) TimerEvent: {}
+[10.571716] (-) TimerEvent: {}
+[10.672058] (-) TimerEvent: {}
+[10.772988] (-) TimerEvent: {}
+[10.859881] (gold_miner) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/miner.dir/build.make:76: CMakeFiles/miner.dir/src/miner.cpp.o] Error 1\n'}
+[10.860201] (gold_miner) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/miner.dir/all] Error 2\n'}
+[10.860406] (gold_miner) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.863112] (gold_miner) CommandEnded: {'returncode': 2}
+[10.873298] (-) TimerEvent: {}
+[10.913475] (gold_miner) JobEnded: {'identifier': 'gold_miner', 'rc': 2}
+[10.924571] (-) EventReactorShutdown: {}

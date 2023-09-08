@@ -1,0 +1,8 @@
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:[m[K In member function ‘[01m[Kvoid Miner::oreInfoCallback(const OreArray&)[m[K’:
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:69:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kminer[m[K’ was not declared in this scope; did you mean ‘[01m[KMiner[m[K’?
+   69 |         if (rclcpp::spin_until_future_complete([01;31m[Kminer[m[K, result) ==
+      |                                                [01;31m[K^~~~~[m[K
+      |                                                [32m[KMiner[m[K
+gmake[2]: *** [CMakeFiles/miner.dir/build.make:76: CMakeFiles/miner.dir/src/miner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/miner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,214 @@
+[0.000000] (-) TimerEvent: {}
+[0.000307] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000375] (gold_miner) JobQueued: {'identifier': 'gold_miner', 'dependencies': OrderedDict([('interfaces', '/home/yuanxiao/gold_hw/install/interfaces')])}
+[0.000913] (gold_miner) JobStarted: {'identifier': 'gold_miner'}
+[0.025246] (gold_miner) JobProgress: {'identifier': 'gold_miner', 'progress': 'cmake'}
+[0.026703] (gold_miner) JobProgress: {'identifier': 'gold_miner', 'progress': 'build'}
+[0.028665] (gold_miner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuanxiao/gold_hw/build/gold_miner', '--', '-j4', '-l4'], 'cwd': '/home/yuanxiao/gold_hw/build/gold_miner', 'env': OrderedDict([('APPCODE_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/appcode.vmoptions'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GATEWAY_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/gateway.vmoptions'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'yuanxiao'), ('LC_TIME', 'zh_CN.UTF-8'), ('WEBSTORM_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/webstorm.vmoptions'), ('WEBIDE_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/webide.vmoptions'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuanxiao/gold_hw/install/interfaces/lib:/home/yuanxiao/dev_ws/install/learning_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuanxiao'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/yuanxiao/gold_hw/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DATASPELL_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/dataspell.vmoptions'), ('SYSTEMD_EXEC_PID', '1796'), ('DATAGRIP_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/datagrip.vmoptions'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b75d13af3f3b9e7e009815e664ed80af'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IDEA_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/idea.vmoptions'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuanxiao/gold_hw/install:/home/yuanxiao/dev_ws/install'), ('CLION_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/clion.vmoptions'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuanxiao'), ('JETBRAINSCLIENT_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/jetbrainsclient.vmoptions'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PHPSTORM_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/phpstorm.vmoptions'), ('USERNAME', 'yuanxiao'), ('TERM', 'xterm-256color'), ('STUDIO_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/studio.vmoptions'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yuanxiao/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ori:@/tmp/.ICE-unix/1796,unix/Ori:/tmp/.ICE-unix/1796'), ('PAPERSIZE', 'a4'), ('RIDER_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/rider.vmoptions'), ('DEVECOSTUDIO_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/devecostudio.vmoptions'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e8d71c6b_b2b6_4484_8a88_a1c77e8c084d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('GOLAND_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/goland.vmoptions'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AZ2691'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1014'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/yuanxiao/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('PYCHARM_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/pycharm.vmoptions'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RUBYMINE_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/rubymine.vmoptions'), ('PWD', '/home/yuanxiao/gold_hw/build/gold_miner'), ('JETBRAINS_CLIENT_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/jetbrains_client.vmoptions'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/yuanxiao/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b75d13af3f3b9e7e009815e664ed80af'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages:/home/yuanxiao/dev_ws/build/learning_urdf:/home/yuanxiao/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_topic:/home/yuanxiao/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_tf:/home/yuanxiao/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_service:/home/yuanxiao/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_qos:/home/yuanxiao/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_parameter:/home/yuanxiao/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_node:/home/yuanxiao/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_launch:/home/yuanxiao/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_action:/home/yuanxiao/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/yuanxiao/dev_ws/build/learning_gazebo:/home/yuanxiao/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble')]), 'shell': False}
+[0.100148] (-) TimerEvent: {}
+[0.130085] (gold_miner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mining_industry\x1b[0m\n'}
+[0.178381] (gold_miner) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/mining_industry.dir/src/mining_industry.cpp.o\x1b[0m\n'}
+[0.201820] (-) TimerEvent: {}
+[0.302495] (-) TimerEvent: {}
+[0.403048] (-) TimerEvent: {}
+[0.503396] (-) TimerEvent: {}
+[0.604153] (-) TimerEvent: {}
+[0.704740] (-) TimerEvent: {}
+[0.805581] (-) TimerEvent: {}
+[0.906447] (-) TimerEvent: {}
+[1.007333] (-) TimerEvent: {}
+[1.108151] (-) TimerEvent: {}
+[1.209120] (-) TimerEvent: {}
+[1.309599] (-) TimerEvent: {}
+[1.409988] (-) TimerEvent: {}
+[1.510910] (-) TimerEvent: {}
+[1.611889] (-) TimerEvent: {}
+[1.712371] (-) TimerEvent: {}
+[1.812849] (-) TimerEvent: {}
+[1.913716] (-) TimerEvent: {}
+[2.014776] (-) TimerEvent: {}
+[2.115503] (-) TimerEvent: {}
+[2.216641] (-) TimerEvent: {}
+[2.317132] (-) TimerEvent: {}
+[2.417559] (-) TimerEvent: {}
+[2.517994] (-) TimerEvent: {}
+[2.618478] (-) TimerEvent: {}
+[2.719399] (-) TimerEvent: {}
+[2.819954] (-) TimerEvent: {}
+[2.921105] (-) TimerEvent: {}
+[3.021543] (-) TimerEvent: {}
+[3.122172] (-) TimerEvent: {}
+[3.222677] (-) TimerEvent: {}
+[3.323339] (-) TimerEvent: {}
+[3.424443] (-) TimerEvent: {}
+[3.525492] (-) TimerEvent: {}
+[3.625920] (-) TimerEvent: {}
+[3.726512] (-) TimerEvent: {}
+[3.826981] (-) TimerEvent: {}
+[3.927983] (-) TimerEvent: {}
+[4.028836] (-) TimerEvent: {}
+[4.129680] (-) TimerEvent: {}
+[4.231083] (-) TimerEvent: {}
+[4.332222] (-) TimerEvent: {}
+[4.432614] (-) TimerEvent: {}
+[4.533162] (-) TimerEvent: {}
+[4.633710] (-) TimerEvent: {}
+[4.734797] (-) TimerEvent: {}
+[4.835244] (-) TimerEvent: {}
+[4.935760] (-) TimerEvent: {}
+[5.036440] (-) TimerEvent: {}
+[5.136922] (-) TimerEvent: {}
+[5.237529] (-) TimerEvent: {}
+[5.337899] (-) TimerEvent: {}
+[5.438415] (-) TimerEvent: {}
+[5.539613] (-) TimerEvent: {}
+[5.640018] (-) TimerEvent: {}
+[5.740533] (-) TimerEvent: {}
+[5.841355] (-) TimerEvent: {}
+[5.941746] (-) TimerEvent: {}
+[6.042761] (-) TimerEvent: {}
+[6.143704] (-) TimerEvent: {}
+[6.244404] (-) TimerEvent: {}
+[6.345106] (-) TimerEvent: {}
+[6.445506] (-) TimerEvent: {}
+[6.546221] (-) TimerEvent: {}
+[6.647002] (-) TimerEvent: {}
+[6.747830] (-) TimerEvent: {}
+[6.848544] (-) TimerEvent: {}
+[6.949272] (-) TimerEvent: {}
+[7.050253] (-) TimerEvent: {}
+[7.151187] (-) TimerEvent: {}
+[7.251834] (-) TimerEvent: {}
+[7.352601] (-) TimerEvent: {}
+[7.453007] (-) TimerEvent: {}
+[7.553460] (-) TimerEvent: {}
+[7.653880] (-) TimerEvent: {}
+[7.754248] (-) TimerEvent: {}
+[7.854960] (-) TimerEvent: {}
+[7.955256] (-) TimerEvent: {}
+[8.056121] (-) TimerEvent: {}
+[8.156520] (-) TimerEvent: {}
+[8.256885] (-) TimerEvent: {}
+[8.357612] (-) TimerEvent: {}
+[8.458324] (-) TimerEvent: {}
+[8.558836] (-) TimerEvent: {}
+[8.572423] (gold_miner) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable mining_industry\x1b[0m\n'}
+[8.659750] (-) TimerEvent: {}
+[8.760433] (-) TimerEvent: {}
+[8.861124] (-) TimerEvent: {}
+[8.961536] (-) TimerEvent: {}
+[8.972079] (gold_miner) StdoutLine: {'line': b'[ 50%] Built target mining_industry\n'}
+[9.005472] (gold_miner) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/miner.dir/src/miner.cpp.o\x1b[0m\n'}
+[9.062804] (-) TimerEvent: {}
+[9.163334] (-) TimerEvent: {}
+[9.264143] (-) TimerEvent: {}
+[9.365102] (-) TimerEvent: {}
+[9.466042] (-) TimerEvent: {}
+[9.566878] (-) TimerEvent: {}
+[9.667849] (-) TimerEvent: {}
+[9.769100] (-) TimerEvent: {}
+[9.869650] (-) TimerEvent: {}
+[9.970145] (-) TimerEvent: {}
+[10.070540] (-) TimerEvent: {}
+[10.170854] (-) TimerEvent: {}
+[10.271301] (-) TimerEvent: {}
+[10.372140] (-) TimerEvent: {}
+[10.473047] (-) TimerEvent: {}
+[10.573436] (-) TimerEvent: {}
+[10.673841] (-) TimerEvent: {}
+[10.774482] (-) TimerEvent: {}
+[10.875104] (-) TimerEvent: {}
+[10.975989] (-) TimerEvent: {}
+[11.076541] (-) TimerEvent: {}
+[11.177687] (-) TimerEvent: {}
+[11.278809] (-) TimerEvent: {}
+[11.379347] (-) TimerEvent: {}
+[11.480398] (-) TimerEvent: {}
+[11.581252] (-) TimerEvent: {}
+[11.682142] (-) TimerEvent: {}
+[11.783280] (-) TimerEvent: {}
+[11.883914] (-) TimerEvent: {}
+[11.902740] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Miner::oreInfoCallback(const OreArray&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.903005] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:36:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kunordered\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kisunordered\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.903083] (gold_miner) StderrLine: {'line': b'   36 |         std::\x1b[01;31m\x1b[Kunordered\x1b[m\x1b[K<float, > dis;     //yong nage nidongde\n'}
+[11.903149] (gold_miner) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.903213] (gold_miner) StderrLine: {'line': b'      |              \x1b[32m\x1b[Kisunordered\x1b[m\x1b[K\n'}
+[11.903276] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:36:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.903340] (gold_miner) StderrLine: {'line': b'   36 |         std::unordered<\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K, > dis;     //yong nage nidongde\n'}
+[11.903449] (gold_miner) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.910318] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:40:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdis\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdiv\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.910591] (gold_miner) StderrLine: {'line': b'   40 |             \x1b[01;31m\x1b[Kdis\x1b[m\x1b[K.push_back(mid);\n'}
+[11.910689] (gold_miner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.910789] (gold_miner) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kdiv\x1b[m\x1b[K\n'}
+[11.916617] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:42:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdis\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdiv\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.916783] (gold_miner) StderrLine: {'line': b'   42 |         size_t minPosition = min_element(\x1b[01;31m\x1b[Kdis\x1b[m\x1b[K.begin(),dis.end()) - dis.begin();\n'}
+[11.916856] (gold_miner) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.916920] (gold_miner) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[Kdiv\x1b[m\x1b[K\n'}
+[11.917267] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:42:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmin_element\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::min_element\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.917360] (gold_miner) StderrLine: {'line': b'   42 |         size_t minPosition = \x1b[01;31m\x1b[Kmin_element\x1b[m\x1b[K(dis.begin(),dis.end()) - dis.begin();\n'}
+[11.917547] (gold_miner) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.917619] (gold_miner) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Kstd::min_element\x1b[m\x1b[K\n'}
+[11.917683] (gold_miner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[11.917745] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[11.917809] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.917872] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.917933] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[11.917995] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:1\x1b[m\x1b[K:\n'}
+[11.918242] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:520:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::min_element\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[11.918331] (gold_miner) StderrLine: {'line': b'  520 | \x1b[01;36m\x1b[Kmin_element\x1b[m\x1b[K(_ExecutionPolicy&& __exec, _ForwardIterator __first, _ForwardIterator __last);\n'}
+[11.918454] (gold_miner) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.918522] (gold_miner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.918585] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[11.918646] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.918709] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.918770] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.918832] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.918905] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.918967] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.919067] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.919145] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.919209] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[11.919271] (gold_miner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:1\x1b[m\x1b[K:\n'}
+[11.919338] (gold_miner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:43:129:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct interfaces::msg::OreInfo_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kid\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.919413] (gold_miner) StderrLine: {'line': b'   43 | re\'s information : id:%d, x:%f, y:%f, z:%f, type:%s, value:%f", msg.ores[1].\x1b[01;31m\x1b[Kid\x1b[m\x1b[K, msg.ores[1].position.x,msg.ores[1].position.y,msg.ores[1].position.z, msg.ores[1].type, msg.ores[1].value);\n'}
+[11.919478] (gold_miner) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.919542] (gold_miner) StderrLine: {'line': b'\n'}
+[11.984073] (-) TimerEvent: {}
+[12.084664] (-) TimerEvent: {}
+[12.185637] (-) TimerEvent: {}
+[12.286257] (-) TimerEvent: {}
+[12.387169] (-) TimerEvent: {}
+[12.487798] (-) TimerEvent: {}
+[12.588493] (-) TimerEvent: {}
+[12.689533] (-) TimerEvent: {}
+[12.790119] (-) TimerEvent: {}
+[12.891105] (-) TimerEvent: {}
+[12.991481] (-) TimerEvent: {}
+[13.092566] (-) TimerEvent: {}
+[13.193068] (-) TimerEvent: {}
+[13.293852] (-) TimerEvent: {}
+[13.394277] (-) TimerEvent: {}
+[13.494743] (-) TimerEvent: {}
+[13.595411] (-) TimerEvent: {}
+[13.695971] (-) TimerEvent: {}
+[13.796932] (-) TimerEvent: {}
+[13.899008] (-) TimerEvent: {}
+[13.999526] (-) TimerEvent: {}
+[14.099913] (-) TimerEvent: {}
+[14.200472] (-) TimerEvent: {}
+[14.301118] (-) TimerEvent: {}
+[14.401509] (-) TimerEvent: {}
+[14.502025] (-) TimerEvent: {}
+[14.602690] (-) TimerEvent: {}
+[14.703416] (-) TimerEvent: {}
+[14.804465] (-) TimerEvent: {}
+[14.905454] (-) TimerEvent: {}
+[15.005844] (-) TimerEvent: {}
+[15.019087] (gold_miner) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/miner.dir/build.make:76: CMakeFiles/miner.dir/src/miner.cpp.o] Error 1\n'}
+[15.019510] (gold_miner) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/miner.dir/all] Error 2\n'}
+[15.019597] (gold_miner) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.044463] (gold_miner) CommandEnded: {'returncode': 2}
+[15.105947] (-) TimerEvent: {}
+[15.200365] (gold_miner) JobEnded: {'identifier': 'gold_miner', 'rc': 2}
+[15.206653] (-) TimerEvent: {}
+[15.211933] (-) EventReactorShutdown: {}

@@ -1,0 +1,34 @@
+[0.031s] Invoking command in '/home/yuanxiao/gold_hw/build/gold_miner': CMAKE_PREFIX_PATH=/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yuanxiao/gold_hw/build/gold_miner -- -j4 -l4
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target mining_industry[0m
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target miner[0m
+[0.104s] [ 75%] [32mBuilding CXX object CMakeFiles/miner.dir/src/miner.cpp.o[0m
+[0.105s] [ 75%] Built target mining_industry
+[2.620s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:[m[K In member function ‘[01m[Kvoid Miner::oreInfoCallback(const OreArray&)[m[K’:
+[2.621s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:57:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Client<interfaces::srv::OrePosition>::wait_for_service(int)[m[K’
+[2.621s]    57 |         while (![01;31m[Kclient_->wait_for_service(1)[m[K) {
+[2.621s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.621s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.621s]                  from [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:1[m[K:
+[2.621s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class RepT, class RatioT> bool rclcpp::ClientBase::wait_for_service(std::chrono::duration<_Rep1, _Period1>)[m[K’
+[2.622s]   195 |   [01;36m[Kwait_for_service[m[K(
+[2.622s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.622s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.622s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:57:42:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kint[m[K’
+[2.622s]    57 |         while (![01;36m[Kclient_->wait_for_service(1)[m[K) {
+[2.622s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.631s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:69:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kminer[m[K’ was not declared in this scope; did you mean ‘[01m[KMiner[m[K’?
+[2.632s]    69 |         if (rclcpp::spin_until_future_complete([01;31m[Kminer[m[K, result) ==
+[2.632s]       |                                                [01;31m[K^~~~~[m[K
+[2.632s]       |                                                [32m[KMiner[m[K
+[5.332s] gmake[2]: *** [CMakeFiles/miner.dir/build.make:76: CMakeFiles/miner.dir/src/miner.cpp.o] Error 1
+[5.332s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/miner.dir/all] Error 2
+[5.334s] gmake: *** [Makefile:146: all] Error 2
+[5.335s] Invoked command in '/home/yuanxiao/gold_hw/build/gold_miner' returned '2': CMAKE_PREFIX_PATH=/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yuanxiao/gold_hw/build/gold_miner -- -j4 -l4

@@ -1,0 +1,8 @@
+msg/OreArray.idl
+msg/OreArray.msg
+msg/OreInfo.idl
+msg/OreInfo.msg
+srv/OrePosition.idl
+srv/OrePosition.srv
+srv/OrePosition_Request.msg
+srv/OrePosition_Response.msg

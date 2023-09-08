@@ -1,0 +1,32 @@
+[0.029s] Invoking command in '/home/yuanxiao/gold_hw/build/gold_miner': CMAKE_PREFIX_PATH=/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yuanxiao/gold_hw/build/gold_miner -- -j4 -l4
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target mining_industry[0m
+[0.095s] [ 25%] [32mBuilding CXX object CMakeFiles/mining_industry.dir/src/mining_industry.cpp.o[0m
+[5.057s] [ 50%] [32m[1mLinking CXX executable mining_industry[0m
+[5.309s] [ 50%] Built target mining_industry
+[5.334s] [100%] Built target miner
+[5.345s] Invoked command in '/home/yuanxiao/gold_hw/build/gold_miner' returned '0': CMAKE_PREFIX_PATH=/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yuanxiao/gold_hw/build/gold_miner -- -j4 -l4
+[5.397s] Invoking command in '/home/yuanxiao/gold_hw/build/gold_miner': CMAKE_PREFIX_PATH=/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/yuanxiao/gold_hw/build/gold_miner
+[5.409s] -- Install configuration: ""
+[5.409s] -- Installing: /home/yuanxiao/gold_hw/install/gold_miner/lib/gold_miner/mining_industry
+[5.410s] -- Set runtime path of "/home/yuanxiao/gold_hw/install/gold_miner/lib/gold_miner/mining_industry" to ""
+[5.410s] -- Up-to-date: /home/yuanxiao/gold_hw/install/gold_miner/lib/gold_miner/miner
+[5.410s] -- Up-to-date: /home/yuanxiao/gold_hw/install/gold_miner/share/gold_miner/launch
+[5.410s] -- Up-to-date: /home/yuanxiao/gold_hw/install/gold_miner/share/gold_miner/launch/gold_miner.launch.py
+[5.410s] -- Up-to-date: /home/yuanxiao/gold_hw/install/gold_miner/share/gold_miner/config
+[5.410s] -- Up-to-date: /home/yuanxiao/gold_hw/install/gold_miner/share/gold_miner/config/param.yaml
+[5.410s] -- Up-to-date: /home/yuanxiao/gold_hw/install/gold_miner/share/ament_index/resource_index/package_run_dependencies/gold_miner
+[5.410s] -- Up-to-date: /home/yuanxiao/gold_hw/install/gold_miner/share/ament_index/resource_index/parent_prefix_path/gold_miner
+[5.410s] -- Up-to-date: /home/yuanxiao/gold_hw/install/gold_miner/share/gold_miner/environment/ament_prefix_path.sh
+[5.410s] -- Up-to-date: /home/yuanxiao/gold_hw/install/gold_miner/share/gold_miner/environment/ament_prefix_path.dsv
+[5.411s] -- Up-to-date: /home/yuanxiao/gold_hw/install/gold_miner/share/gold_miner/environment/path.sh
+[5.411s] -- Up-to-date: /home/yuanxiao/gold_hw/install/gold_miner/share/gold_miner/environment/path.dsv
+[5.411s] -- Up-to-date: /home/yuanxiao/gold_hw/install/gold_miner/share/gold_miner/local_setup.bash
+[5.411s] -- Up-to-date: /home/yuanxiao/gold_hw/install/gold_miner/share/gold_miner/local_setup.sh
+[5.411s] -- Up-to-date: /home/yuanxiao/gold_hw/install/gold_miner/share/gold_miner/local_setup.zsh
+[5.411s] -- Up-to-date: /home/yuanxiao/gold_hw/install/gold_miner/share/gold_miner/local_setup.dsv
+[5.411s] -- Installing: /home/yuanxiao/gold_hw/install/gold_miner/share/gold_miner/package.dsv
+[5.411s] -- Up-to-date: /home/yuanxiao/gold_hw/install/gold_miner/share/ament_index/resource_index/packages/gold_miner
+[5.411s] -- Up-to-date: /home/yuanxiao/gold_hw/install/gold_miner/share/gold_miner/cmake/gold_minerConfig.cmake
+[5.412s] -- Up-to-date: /home/yuanxiao/gold_hw/install/gold_miner/share/gold_miner/cmake/gold_minerConfig-version.cmake
+[5.412s] -- Up-to-date: /home/yuanxiao/gold_hw/install/gold_miner/share/gold_miner/package.xml
+[5.413s] Invoked command in '/home/yuanxiao/gold_hw/build/gold_miner' returned '0': CMAKE_PREFIX_PATH=/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/yuanxiao/gold_hw/build/gold_miner

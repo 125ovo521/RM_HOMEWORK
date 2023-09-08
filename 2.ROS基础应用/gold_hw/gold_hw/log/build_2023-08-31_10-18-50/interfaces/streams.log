@@ -1,0 +1,303 @@
+[0.018s] Invoking command in '/home/yuanxiao/gold_hw/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake /home/yuanxiao/gold_hw/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/yuanxiao/gold_hw/install/interfaces
+[0.111s] -- The C compiler identification is GNU 11.4.0
+[0.184s] -- The CXX compiler identification is GNU 11.4.0
+[0.197s] -- Detecting C compiler ABI info
+[0.285s] -- Detecting C compiler ABI info - done
+[0.290s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.290s] -- Detecting C compile features
+[0.290s] -- Detecting C compile features - done
+[0.293s] -- Detecting CXX compiler ABI info
+[0.369s] -- Detecting CXX compiler ABI info - done
+[0.377s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.378s] -- Detecting CXX compile features
+[0.379s] -- Detecting CXX compile features - done
+[0.383s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.602s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.711s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.764s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.774s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.782s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.798s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.816s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.922s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.332s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.924s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.112s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.135s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.137s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.176s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.176s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.176s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.176s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.200s] -- Found PythonExtra: .so  
+[2.260s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.280s] -- Added test 'lint_cmake' to check CMake code style
+[2.282s] -- Added test 'xmllint' to check XML markup files
+[2.286s] -- Configuring done
+[2.324s] -- Generating done
+[2.327s] -- Build files have been written to: /home/yuanxiao/gold_hw/build/interfaces
+[2.341s] Invoked command in '/home/yuanxiao/gold_hw/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake /home/yuanxiao/gold_hw/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/yuanxiao/gold_hw/install/interfaces
+[2.344s] Invoking command in '/home/yuanxiao/gold_hw/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yuanxiao/gold_hw/build/interfaces -- -j4 -l4
+[2.391s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.408s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.883s] [  4%] Built target interfaces__cpp
+[2.894s] [  6%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/ore_array__functions.c.o[0m
+[2.937s] [  8%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/ore_info__functions.c.o[0m
+[2.943s] [  8%] Built target ament_cmake_python_copy_interfaces
+[2.959s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.959s] [ 12%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/ore_position__functions.c.o[0m
+[3.023s] [ 14%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[3.068s] [ 14%] Built target interfaces__rosidl_generator_c
+[3.383s] [ 17%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/ore_array__type_support.cpp.o[0m
+[3.912s] [ 19%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/ore_info__type_support.cpp.o[0m
+[4.350s] [ 21%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/ore_position__type_support.cpp.o[0m
+[4.704s] [ 23%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.790s] [ 23%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[5.056s] running egg_info
+[5.056s] creating interfaces.egg-info
+[5.057s] writing interfaces.egg-info/PKG-INFO
+[5.057s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[5.057s] writing top-level names to interfaces.egg-info/top_level.txt
+[5.057s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[5.059s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[5.059s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[5.102s] [ 23%] Built target ament_cmake_python_build_interfaces_egg
+[5.114s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.536s] [ 27%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/ore_array__type_support_c.cpp.o[0m
+[5.838s] [ 29%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/ore_info__type_support_c.cpp.o[0m
+[6.160s] [ 31%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/ore_position__type_support_c.cpp.o[0m
+[6.518s] [ 34%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.617s] [ 34%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[6.627s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.006s] [ 38%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/ore_array__type_support.c.o[0m
+[7.049s] [ 40%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/ore_info__type_support.c.o[0m
+[7.081s] [ 42%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/ore_position__type_support.c.o[0m
+[7.111s] [ 44%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[7.143s] [ 44%] Built target interfaces__rosidl_typesupport_introspection_c
+[7.152s] [ 46%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.510s] [ 48%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/ore_array__type_support.cpp.o[0m
+[7.540s] [ 51%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/ore_info__type_support.cpp.o[0m
+[7.568s] [ 53%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/ore_position__type_support.cpp.o[0m
+[7.600s] [ 55%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[7.643s] [ 55%] Built target interfaces__rosidl_typesupport_c
+[7.660s] [ 57%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.153s] [ 59%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/ore_array__type_support.cpp.o[0m
+[8.578s] [ 61%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/ore_position__type_support.cpp.o[0m
+[8.922s] [ 63%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/ore_info__type_support.cpp.o[0m
+[9.350s] [ 65%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[9.477s] [ 65%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[9.488s] [ 68%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.770s] [ 70%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/ore_array__type_support.cpp.o[0m
+[9.993s] [ 72%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/ore_position__type_support.cpp.o[0m
+[10.219s] [ 74%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/ore_info__type_support.cpp.o[0m
+[10.484s] [ 76%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[10.520s] [ 76%] Built target interfaces__rosidl_typesupport_cpp
+[10.541s] [ 76%] Built target interfaces
+[10.561s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.063s] [ 78%] Built target interfaces__py
+[11.084s] [ 80%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_ore_array_s.c.o[0m
+[11.176s] [ 82%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_ore_position_s.c.o[0m
+[11.261s] [ 85%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_ore_info_s.c.o[0m
+[11.352s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so[0m
+[11.417s] [ 87%] Built target interfaces__rosidl_generator_py
+[11.448s] [ 89%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.545s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.587s] [ 91%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[11.608s] [ 93%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[11.696s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.746s] [ 95%] Built target interfaces__rosidl_typesupport_c__pyext
+[11.769s] [ 97%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.871s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.909s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[11.922s] Invoked command in '/home/yuanxiao/gold_hw/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yuanxiao/gold_hw/build/interfaces -- -j4 -l4
+[12.034s] Invoking command in '/home/yuanxiao/gold_hw/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/yuanxiao/gold_hw/build/interfaces
+[12.041s] -- Install configuration: ""
+[12.041s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[12.041s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces
+[12.041s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv
+[12.042s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/ore_position.h
+[12.042s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail
+[12.042s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__type_support.h
+[12.042s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__functions.h
+[12.042s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__functions.c
+[12.042s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__struct.h
+[12.042s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg
+[12.042s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[12.042s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/ore_info.h
+[12.042s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail
+[12.042s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__type_support.h
+[12.043s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__functions.c
+[12.043s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__functions.h
+[12.043s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__functions.c
+[12.043s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__functions.h
+[12.043s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__struct.h
+[12.043s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__struct.h
+[12.043s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__type_support.h
+[12.043s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/ore_array.h
+[12.043s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/environment/library_path.sh
+[12.043s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/environment/library_path.dsv
+[12.044s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[12.044s] -- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[12.044s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces
+[12.044s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv
+[12.044s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail
+[12.044s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__rosidl_typesupport_fastrtps_c.h
+[12.045s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg
+[12.045s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.045s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail
+[12.045s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__rosidl_typesupport_fastrtps_c.h
+[12.045s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__rosidl_typesupport_fastrtps_c.h
+[12.045s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[12.045s] -- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[12.047s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces
+[12.047s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv
+[12.047s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/ore_position.hpp
+[12.054s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail
+[12.054s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__builder.hpp
+[12.055s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__struct.hpp
+[12.055s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__traits.hpp
+[12.055s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg
+[12.055s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/ore_array.hpp
+[12.055s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/ore_info.hpp
+[12.055s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail
+[12.055s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__traits.hpp
+[12.055s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__traits.hpp
+[12.055s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__struct.hpp
+[12.055s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__builder.hpp
+[12.055s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__builder.hpp
+[12.055s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__struct.hpp
+[12.055s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces
+[12.056s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv
+[12.056s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail
+[12.056s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps
+[12.056s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__rosidl_typesupport_fastrtps_cpp.hpp
+[12.056s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg
+[12.056s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.056s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail
+[12.056s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps
+[12.056s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__rosidl_typesupport_fastrtps_cpp.hpp
+[12.057s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__rosidl_typesupport_fastrtps_cpp.hpp
+[12.057s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[12.057s] -- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.057s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces
+[12.057s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv
+[12.057s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail
+[12.057s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__rosidl_typesupport_introspection_c.h
+[12.057s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__type_support.c
+[12.057s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg
+[12.058s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.058s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail
+[12.058s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__rosidl_typesupport_introspection_c.h
+[12.058s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__rosidl_typesupport_introspection_c.h
+[12.058s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__type_support.c
+[12.058s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__type_support.c
+[12.058s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[12.058s] -- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[12.058s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[12.063s] -- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[12.063s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces
+[12.063s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv
+[12.064s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail
+[12.064s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__rosidl_typesupport_introspection_cpp.hpp
+[12.064s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__type_support.cpp
+[12.064s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg
+[12.064s] -- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail
+[12.064s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__type_support.cpp
+[12.064s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__rosidl_typesupport_introspection_cpp.hpp
+[12.064s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__type_support.cpp
+[12.064s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__rosidl_typesupport_introspection_cpp.hpp
+[12.064s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[12.064s] -- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[12.064s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[12.064s] -- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[12.064s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/environment/pythonpath.sh
+[12.064s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[12.064s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info
+[12.065s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[12.065s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[12.065s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.065s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[12.065s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces
+[12.065s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[12.065s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.065s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.065s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.065s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.065s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv
+[12.065s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_ore_position_s.c
+[12.065s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_ore_position.py
+[12.065s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py
+[12.066s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[12.066s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so
+[12.066s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py
+[12.066s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg
+[12.066s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_ore_info_s.c
+[12.066s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_ore_info.py
+[12.066s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_ore_array_s.c
+[12.066s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_ore_array.py
+[12.066s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py
+[12.110s] Listing '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...
+[12.110s] Compiling '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...
+[12.110s] Listing '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...
+[12.110s] Compiling '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py'...
+[12.110s] Compiling '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_ore_array.py'...
+[12.110s] Compiling '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_ore_info.py'...
+[12.110s] Listing '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...
+[12.110s] Compiling '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py'...
+[12.111s] Compiling '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_ore_position.py'...
+[12.120s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.120s] -- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.120s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.120s] -- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.120s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.120s] -- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.120s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[12.120s] -- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[12.120s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/msg/OreArray.idl
+[12.121s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/msg/OreInfo.idl
+[12.121s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/srv/OrePosition.idl
+[12.121s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/msg/OreArray.msg
+[12.121s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/msg/OreInfo.msg
+[12.121s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/srv/OrePosition.srv
+[12.121s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/srv/OrePosition_Request.msg
+[12.121s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/srv/OrePosition_Response.msg
+[12.121s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[12.121s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[12.121s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[12.121s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[12.121s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/environment/path.sh
+[12.121s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/environment/path.dsv
+[12.121s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/local_setup.bash
+[12.121s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/local_setup.sh
+[12.122s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/local_setup.zsh
+[12.122s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/local_setup.dsv
+[12.122s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/package.dsv
+[12.122s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[12.122s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[12.122s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[12.122s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[12.122s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.122s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[12.122s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.122s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.122s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[12.122s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.123s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[12.123s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[12.123s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[12.123s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.124s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[12.124s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[12.124s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[12.125s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[12.125s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[12.126s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.126s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.126s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[12.126s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[12.127s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.127s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.128s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[12.128s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[12.131s] -- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/package.xml
+[12.139s] Invoked command in '/home/yuanxiao/gold_hw/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/yuanxiao/gold_hw/build/interfaces

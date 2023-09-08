@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target mining_industry[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/mining_industry.dir/src/mining_industry.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable mining_industry[0m
+[ 50%] Built target mining_industry
+[35m[1mConsolidate compiler generated dependencies of target miner[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/miner.dir/src/miner.cpp.o[0m
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:[m[K In member function ‘[01m[Kvoid Miner::oreInfoCallback(const OreArray&)[m[K’:
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:90:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   90 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/miner.dir/build.make:76: CMakeFiles/miner.dir/src/miner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/miner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

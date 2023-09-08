@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target mining_industry[0m
+[35m[1mConsolidate compiler generated dependencies of target miner[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/miner.dir/src/miner.cpp.o[0m
+[ 75%] Built target mining_industry

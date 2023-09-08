@@ -1,0 +1,19 @@
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:[m[K In constructor ‘[01m[KMiningIndustry::MiningIndustry()[m[K’:
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:13:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMiningIndustry::create_publisher<interfaces::msg::OreArray>(const char [6], std::_Bind_helper<false, void (MiningIndustry::*)(), MiningIndustry*>::type)[m[K’
+   13 |         publisher_ = [01;31m[Kthis->create_publisher<interfaces::msg::OreArray>("topic", std::bind(&MiningIndustry::publishOreInfo, this))[m[K; //
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:13:90:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (MiningIndustry::*)(); _BoundArgs = {MiningIndustry*}; typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type = std::_Bind_helper<false, void (MiningIndustry::*)(), MiningIndustry*>::type; std::__is_socketlike<_Func> = std::__is_socketlike<void (MiningIndustry::*)(), void (MiningIndustry::*)()>; typename std::decay<_Tp>::type = void (MiningIndustry::*)()](((MiningIndustry*)this))[m[K’ (type ‘[01m[Kstd::_Bind_helper<false, void (MiningIndustry::*)(), MiningIndustry*>::type[m[K’) to type ‘[01m[Kconst rclcpp::QoS&[m[K’
+   13 | sher_ = this->create_publisher<interfaces::msg::OreArray>("topic", [01;36m[Kstd::bind(&MiningIndustry::publishOreInfo, this)[m[K); //
+      |                                                                    [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/mining_industry.dir/build.make:76: CMakeFiles/mining_industry.dir/src/mining_industry.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/mining_industry.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

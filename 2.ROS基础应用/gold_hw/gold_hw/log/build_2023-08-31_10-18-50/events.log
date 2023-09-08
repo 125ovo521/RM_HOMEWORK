@@ -1,0 +1,432 @@
+[0.000000] (-) TimerEvent: {}
+[0.000409] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.001806] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.017958] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.018536] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/yuanxiao/gold_hw/src/interfaces', '-DCMAKE_INSTALL_PREFIX=/home/yuanxiao/gold_hw/install/interfaces'], 'cwd': '/home/yuanxiao/gold_hw/build/interfaces', 'env': OrderedDict([('APPCODE_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/appcode.vmoptions'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GATEWAY_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/gateway.vmoptions'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'yuanxiao'), ('LC_TIME', 'zh_CN.UTF-8'), ('WEBSTORM_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/webstorm.vmoptions'), ('WEBIDE_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/webide.vmoptions'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuanxiao/dev_ws/install/learning_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuanxiao'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/yuanxiao/gold_hw/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DATASPELL_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/dataspell.vmoptions'), ('SYSTEMD_EXEC_PID', '1796'), ('DATAGRIP_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/datagrip.vmoptions'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b75d13af3f3b9e7e009815e664ed80af'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IDEA_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/idea.vmoptions'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuanxiao/dev_ws/install'), ('CLION_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/clion.vmoptions'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuanxiao'), ('JETBRAINSCLIENT_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/jetbrainsclient.vmoptions'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PHPSTORM_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/phpstorm.vmoptions'), ('USERNAME', 'yuanxiao'), ('TERM', 'xterm-256color'), ('STUDIO_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/studio.vmoptions'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yuanxiao/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ori:@/tmp/.ICE-unix/1796,unix/Ori:/tmp/.ICE-unix/1796'), ('PAPERSIZE', 'a4'), ('RIDER_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/rider.vmoptions'), ('DEVECOSTUDIO_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/devecostudio.vmoptions'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e8d71c6b_b2b6_4484_8a88_a1c77e8c084d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('GOLAND_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/goland.vmoptions'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AZ2691'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1014'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/yuanxiao/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('PYCHARM_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/pycharm.vmoptions'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RUBYMINE_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/rubymine.vmoptions'), ('PWD', '/home/yuanxiao/gold_hw/build/interfaces'), ('JETBRAINS_CLIENT_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/jetbrains_client.vmoptions'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/yuanxiao/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b75d13af3f3b9e7e009815e664ed80af'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yuanxiao/dev_ws/build/learning_urdf:/home/yuanxiao/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_topic:/home/yuanxiao/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_tf:/home/yuanxiao/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_service:/home/yuanxiao/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_qos:/home/yuanxiao/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_parameter:/home/yuanxiao/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_node:/home/yuanxiao/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_launch:/home/yuanxiao/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_action:/home/yuanxiao/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/yuanxiao/dev_ws/build/learning_gazebo:/home/yuanxiao/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble')]), 'shell': False}
+[0.099680] (-) TimerEvent: {}
+[0.112887] (interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.185766] (interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.199007] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199808] (-) TimerEvent: {}
+[0.286546] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.291419] (interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.291658] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.291906] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.294514] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300321] (-) TimerEvent: {}
+[0.370642] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.379187] (interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.379437] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.380740] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.384672] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400406] (-) TimerEvent: {}
+[0.501022] (-) TimerEvent: {}
+[0.602319] (-) TimerEvent: {}
+[0.603471] (interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.702920] (-) TimerEvent: {}
+[0.712512] (interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.765519] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.775320] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.783339] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.800023] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.803679] (-) TimerEvent: {}
+[0.817551] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.904756] (-) TimerEvent: {}
+[0.923645] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.005467] (-) TimerEvent: {}
+[1.105868] (-) TimerEvent: {}
+[1.206321] (-) TimerEvent: {}
+[1.307674] (-) TimerEvent: {}
+[1.333297] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.407831] (-) TimerEvent: {}
+[1.508334] (-) TimerEvent: {}
+[1.608880] (-) TimerEvent: {}
+[1.709277] (-) TimerEvent: {}
+[1.810123] (-) TimerEvent: {}
+[1.910941] (-) TimerEvent: {}
+[1.926027] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.011828] (-) TimerEvent: {}
+[2.113460] (-) TimerEvent: {}
+[2.114154] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.136671] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.138729] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.177140] (interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.177397] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.177471] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.177537] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.201842] (interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.213876] (-) TimerEvent: {}
+[2.261475] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.281791] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.283433] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.288129] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.313992] (-) TimerEvent: {}
+[2.326167] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.329001] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/yuanxiao/gold_hw/build/interfaces\n'}
+[2.342414] (interfaces) CommandEnded: {'returncode': 0}
+[2.343215] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[2.344189] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuanxiao/gold_hw/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/yuanxiao/gold_hw/build/interfaces', 'env': OrderedDict([('APPCODE_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/appcode.vmoptions'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GATEWAY_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/gateway.vmoptions'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'yuanxiao'), ('LC_TIME', 'zh_CN.UTF-8'), ('WEBSTORM_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/webstorm.vmoptions'), ('WEBIDE_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/webide.vmoptions'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuanxiao/dev_ws/install/learning_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuanxiao'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/yuanxiao/gold_hw/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DATASPELL_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/dataspell.vmoptions'), ('SYSTEMD_EXEC_PID', '1796'), ('DATAGRIP_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/datagrip.vmoptions'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b75d13af3f3b9e7e009815e664ed80af'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IDEA_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/idea.vmoptions'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuanxiao/dev_ws/install'), ('CLION_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/clion.vmoptions'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuanxiao'), ('JETBRAINSCLIENT_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/jetbrainsclient.vmoptions'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PHPSTORM_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/phpstorm.vmoptions'), ('USERNAME', 'yuanxiao'), ('TERM', 'xterm-256color'), ('STUDIO_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/studio.vmoptions'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yuanxiao/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ori:@/tmp/.ICE-unix/1796,unix/Ori:/tmp/.ICE-unix/1796'), ('PAPERSIZE', 'a4'), ('RIDER_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/rider.vmoptions'), ('DEVECOSTUDIO_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/devecostudio.vmoptions'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e8d71c6b_b2b6_4484_8a88_a1c77e8c084d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('GOLAND_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/goland.vmoptions'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AZ2691'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1014'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/yuanxiao/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('PYCHARM_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/pycharm.vmoptions'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RUBYMINE_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/rubymine.vmoptions'), ('PWD', '/home/yuanxiao/gold_hw/build/interfaces'), ('JETBRAINS_CLIENT_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/jetbrains_client.vmoptions'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/yuanxiao/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b75d13af3f3b9e7e009815e664ed80af'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yuanxiao/dev_ws/build/learning_urdf:/home/yuanxiao/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_topic:/home/yuanxiao/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_tf:/home/yuanxiao/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_service:/home/yuanxiao/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_qos:/home/yuanxiao/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_parameter:/home/yuanxiao/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_node:/home/yuanxiao/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_launch:/home/yuanxiao/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_action:/home/yuanxiao/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/yuanxiao/dev_ws/build/learning_gazebo:/home/yuanxiao/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble')]), 'shell': False}
+[2.392337] (interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.409260] (interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.414167] (-) TimerEvent: {}
+[2.514832] (-) TimerEvent: {}
+[2.616180] (-) TimerEvent: {}
+[2.717195] (-) TimerEvent: {}
+[2.818379] (-) TimerEvent: {}
+[2.885098] (interfaces) StdoutLine: {'line': b'[  4%] Built target interfaces__cpp\n'}
+[2.895546] (interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/ore_array__functions.c.o\x1b[0m\n'}
+[2.919502] (-) TimerEvent: {}
+[2.938507] (interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/ore_info__functions.c.o\x1b[0m\n'}
+[2.944347] (interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_copy_interfaces\n'}
+[2.960575] (interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.960974] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/ore_position__functions.c.o\x1b[0m\n'}
+[3.020304] (-) TimerEvent: {}
+[3.024875] (interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.069340] (interfaces) StdoutLine: {'line': b'[ 14%] Built target interfaces__rosidl_generator_c\n'}
+[3.120419] (-) TimerEvent: {}
+[3.220761] (-) TimerEvent: {}
+[3.321973] (-) TimerEvent: {}
+[3.385150] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/ore_array__type_support.cpp.o\x1b[0m\n'}
+[3.424542] (-) TimerEvent: {}
+[3.527463] (-) TimerEvent: {}
+[3.628288] (-) TimerEvent: {}
+[3.729024] (-) TimerEvent: {}
+[3.830049] (-) TimerEvent: {}
+[3.913690] (interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/ore_info__type_support.cpp.o\x1b[0m\n'}
+[3.931133] (-) TimerEvent: {}
+[4.031635] (-) TimerEvent: {}
+[4.132448] (-) TimerEvent: {}
+[4.233152] (-) TimerEvent: {}
+[4.333972] (-) TimerEvent: {}
+[4.351525] (interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/ore_position__type_support.cpp.o\x1b[0m\n'}
+[4.434241] (-) TimerEvent: {}
+[4.534804] (-) TimerEvent: {}
+[4.635877] (-) TimerEvent: {}
+[4.705812] (interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.736857] (-) TimerEvent: {}
+[4.791701] (interfaces) StdoutLine: {'line': b'[ 23%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.838869] (-) TimerEvent: {}
+[4.942241] (-) TimerEvent: {}
+[5.042582] (-) TimerEvent: {}
+[5.057633] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.058117] (interfaces) StdoutLine: {'line': b'creating interfaces.egg-info\n'}
+[5.058308] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[5.058542] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[5.058682] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[5.058923] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[5.060492] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[5.060899] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[5.103612] (interfaces) StdoutLine: {'line': b'[ 23%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[5.116108] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.142883] (-) TimerEvent: {}
+[5.243908] (-) TimerEvent: {}
+[5.344457] (-) TimerEvent: {}
+[5.444915] (-) TimerEvent: {}
+[5.537679] (interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/ore_array__type_support_c.cpp.o\x1b[0m\n'}
+[5.545073] (-) TimerEvent: {}
+[5.646076] (-) TimerEvent: {}
+[5.746430] (-) TimerEvent: {}
+[5.839434] (interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/ore_info__type_support_c.cpp.o\x1b[0m\n'}
+[5.847137] (-) TimerEvent: {}
+[5.948191] (-) TimerEvent: {}
+[6.048626] (-) TimerEvent: {}
+[6.149095] (-) TimerEvent: {}
+[6.161774] (interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/ore_position__type_support_c.cpp.o\x1b[0m\n'}
+[6.249377] (-) TimerEvent: {}
+[6.349743] (-) TimerEvent: {}
+[6.450284] (-) TimerEvent: {}
+[6.519926] (interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.553059] (-) TimerEvent: {}
+[6.618560] (interfaces) StdoutLine: {'line': b'[ 34%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.628658] (interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.653651] (-) TimerEvent: {}
+[6.753951] (-) TimerEvent: {}
+[6.854254] (-) TimerEvent: {}
+[6.954552] (-) TimerEvent: {}
+[7.007240] (interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/ore_array__type_support.c.o\x1b[0m\n'}
+[7.050299] (interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/ore_info__type_support.c.o\x1b[0m\n'}
+[7.058631] (-) TimerEvent: {}
+[7.082315] (interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/ore_position__type_support.c.o\x1b[0m\n'}
+[7.112655] (interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.144559] (interfaces) StdoutLine: {'line': b'[ 44%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[7.153768] (interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.158883] (-) TimerEvent: {}
+[7.260115] (-) TimerEvent: {}
+[7.360541] (-) TimerEvent: {}
+[7.460989] (-) TimerEvent: {}
+[7.511724] (interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/ore_array__type_support.cpp.o\x1b[0m\n'}
+[7.541969] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/ore_info__type_support.cpp.o\x1b[0m\n'}
+[7.561277] (-) TimerEvent: {}
+[7.570178] (interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/ore_position__type_support.cpp.o\x1b[0m\n'}
+[7.601245] (interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.644332] (interfaces) StdoutLine: {'line': b'[ 55%] Built target interfaces__rosidl_typesupport_c\n'}
+[7.661522] (interfaces) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.661719] (-) TimerEvent: {}
+[7.762410] (-) TimerEvent: {}
+[7.863461] (-) TimerEvent: {}
+[7.964362] (-) TimerEvent: {}
+[8.065640] (-) TimerEvent: {}
+[8.154542] (interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/ore_array__type_support.cpp.o\x1b[0m\n'}
+[8.167538] (-) TimerEvent: {}
+[8.268696] (-) TimerEvent: {}
+[8.369080] (-) TimerEvent: {}
+[8.469944] (-) TimerEvent: {}
+[8.570524] (-) TimerEvent: {}
+[8.579897] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/ore_position__type_support.cpp.o\x1b[0m\n'}
+[8.671516] (-) TimerEvent: {}
+[8.772521] (-) TimerEvent: {}
+[8.873011] (-) TimerEvent: {}
+[8.923498] (interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/ore_info__type_support.cpp.o\x1b[0m\n'}
+[8.973864] (-) TimerEvent: {}
+[9.075067] (-) TimerEvent: {}
+[9.176070] (-) TimerEvent: {}
+[9.276751] (-) TimerEvent: {}
+[9.351258] (interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.376970] (-) TimerEvent: {}
+[9.477365] (-) TimerEvent: {}
+[9.479033] (interfaces) StdoutLine: {'line': b'[ 65%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[9.489687] (interfaces) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.577533] (-) TimerEvent: {}
+[9.678040] (-) TimerEvent: {}
+[9.771527] (interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/ore_array__type_support.cpp.o\x1b[0m\n'}
+[9.778286] (-) TimerEvent: {}
+[9.879035] (-) TimerEvent: {}
+[9.980225] (-) TimerEvent: {}
+[9.995038] (interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/ore_position__type_support.cpp.o\x1b[0m\n'}
+[10.080716] (-) TimerEvent: {}
+[10.181185] (-) TimerEvent: {}
+[10.220931] (interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/ore_info__type_support.cpp.o\x1b[0m\n'}
+[10.281735] (-) TimerEvent: {}
+[10.382248] (-) TimerEvent: {}
+[10.482616] (-) TimerEvent: {}
+[10.485294] (interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.521950] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[10.543018] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces\n'}
+[10.562506] (interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.582836] (-) TimerEvent: {}
+[10.683361] (-) TimerEvent: {}
+[10.783948] (-) TimerEvent: {}
+[10.884636] (-) TimerEvent: {}
+[10.985034] (-) TimerEvent: {}
+[11.064809] (interfaces) StdoutLine: {'line': b'[ 78%] Built target interfaces__py\n'}
+[11.085843] (-) TimerEvent: {}
+[11.086189] (interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_ore_array_s.c.o\x1b[0m\n'}
+[11.178104] (interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_ore_position_s.c.o\x1b[0m\n'}
+[11.186697] (-) TimerEvent: {}
+[11.263099] (interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_ore_info_s.c.o\x1b[0m\n'}
+[11.286971] (-) TimerEvent: {}
+[11.353824] (interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so\x1b[0m\n'}
+[11.387176] (-) TimerEvent: {}
+[11.418086] (interfaces) StdoutLine: {'line': b'[ 87%] Built target interfaces__rosidl_generator_py\n'}
+[11.449395] (interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.487885] (-) TimerEvent: {}
+[11.546763] (interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.588076] (-) TimerEvent: {}
+[11.588411] (interfaces) StdoutLine: {'line': b'[ 91%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.609211] (interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.688261] (-) TimerEvent: {}
+[11.697186] (interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.747504] (interfaces) StdoutLine: {'line': b'[ 95%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[11.771033] (interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.788860] (-) TimerEvent: {}
+[11.872251] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.889303] (-) TimerEvent: {}
+[11.910489] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[11.922984] (interfaces) CommandEnded: {'returncode': 0}
+[11.989451] (-) TimerEvent: {}
+[12.025648] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[12.035529] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yuanxiao/gold_hw/build/interfaces'], 'cwd': '/home/yuanxiao/gold_hw/build/interfaces', 'env': OrderedDict([('APPCODE_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/appcode.vmoptions'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GATEWAY_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/gateway.vmoptions'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'yuanxiao'), ('LC_TIME', 'zh_CN.UTF-8'), ('WEBSTORM_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/webstorm.vmoptions'), ('WEBIDE_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/webide.vmoptions'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuanxiao/dev_ws/install/learning_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuanxiao'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/yuanxiao/gold_hw/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DATASPELL_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/dataspell.vmoptions'), ('SYSTEMD_EXEC_PID', '1796'), ('DATAGRIP_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/datagrip.vmoptions'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b75d13af3f3b9e7e009815e664ed80af'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IDEA_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/idea.vmoptions'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuanxiao/dev_ws/install'), ('CLION_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/clion.vmoptions'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuanxiao'), ('JETBRAINSCLIENT_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/jetbrainsclient.vmoptions'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PHPSTORM_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/phpstorm.vmoptions'), ('USERNAME', 'yuanxiao'), ('TERM', 'xterm-256color'), ('STUDIO_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/studio.vmoptions'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yuanxiao/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ori:@/tmp/.ICE-unix/1796,unix/Ori:/tmp/.ICE-unix/1796'), ('PAPERSIZE', 'a4'), ('RIDER_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/rider.vmoptions'), ('DEVECOSTUDIO_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/devecostudio.vmoptions'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e8d71c6b_b2b6_4484_8a88_a1c77e8c084d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('GOLAND_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/goland.vmoptions'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AZ2691'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1014'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/yuanxiao/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('PYCHARM_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/pycharm.vmoptions'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RUBYMINE_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/rubymine.vmoptions'), ('PWD', '/home/yuanxiao/gold_hw/build/interfaces'), ('JETBRAINS_CLIENT_VM_OPTIONS', '/home/yuanxiao/Downloads/linux/linux/linuxjihuo2023/vmoptions/jetbrains_client.vmoptions'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/yuanxiao/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b75d13af3f3b9e7e009815e664ed80af'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yuanxiao/dev_ws/build/learning_urdf:/home/yuanxiao/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_topic:/home/yuanxiao/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_tf:/home/yuanxiao/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_service:/home/yuanxiao/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_qos:/home/yuanxiao/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_parameter:/home/yuanxiao/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_node:/home/yuanxiao/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_launch:/home/yuanxiao/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/build/learning_action:/home/yuanxiao/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/yuanxiao/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/yuanxiao/dev_ws/build/learning_gazebo:/home/yuanxiao/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble')]), 'shell': False}
+[12.042668] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.042976] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[12.043069] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces\n'}
+[12.043171] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv\n'}
+[12.043290] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/ore_position.h\n'}
+[12.043359] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[12.043422] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__type_support.h\n'}
+[12.043559] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__functions.h\n'}
+[12.043644] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__functions.c\n'}
+[12.043708] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__struct.h\n'}
+[12.043771] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg\n'}
+[12.043834] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.043947] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/ore_info.h\n'}
+[12.044088] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[12.044196] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__type_support.h\n'}
+[12.044298] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__functions.c\n'}
+[12.044372] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__functions.h\n'}
+[12.044473] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__functions.c\n'}
+[12.044576] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__functions.h\n'}
+[12.044715] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__struct.h\n'}
+[12.044796] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__struct.h\n'}
+[12.044871] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__type_support.h\n'}
+[12.044990] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/ore_array.h\n'}
+[12.045054] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[12.045173] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[12.045290] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[12.045481] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[12.045648] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces\n'}
+[12.045803] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv\n'}
+[12.045951] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[12.046019] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__rosidl_typesupport_fastrtps_c.h\n'}
+[12.046401] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg\n'}
+[12.046579] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.046649] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[12.046733] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__rosidl_typesupport_fastrtps_c.h\n'}
+[12.046799] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__rosidl_typesupport_fastrtps_c.h\n'}
+[12.046861] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[12.046923] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.046984] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces\n'}
+[12.048765] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv\n'}
+[12.048842] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/ore_position.hpp\n'}
+[12.055606] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[12.056181] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__builder.hpp\n'}
+[12.056293] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__struct.hpp\n'}
+[12.056359] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__traits.hpp\n'}
+[12.056421] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg\n'}
+[12.056484] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/ore_array.hpp\n'}
+[12.056547] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/ore_info.hpp\n'}
+[12.056608] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[12.056712] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__traits.hpp\n'}
+[12.056779] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__traits.hpp\n'}
+[12.056963] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__struct.hpp\n'}
+[12.057044] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__builder.hpp\n'}
+[12.057107] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__builder.hpp\n'}
+[12.057169] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__struct.hpp\n'}
+[12.057231] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces\n'}
+[12.057343] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv\n'}
+[12.057488] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[12.057563] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps\n'}
+[12.057635] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.057757] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg\n'}
+[12.057824] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.057886] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[12.057947] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[12.058080] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.058222] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.058409] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.058478] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.058541] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces\n'}
+[12.058655] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv\n'}
+[12.058829] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[12.058949] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__rosidl_typesupport_introspection_c.h\n'}
+[12.059096] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__type_support.c\n'}
+[12.059222] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg\n'}
+[12.059333] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.059403] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[12.059465] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__rosidl_typesupport_introspection_c.h\n'}
+[12.059552] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__rosidl_typesupport_introspection_c.h\n'}
+[12.059686] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__type_support.c\n'}
+[12.059753] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__type_support.c\n'}
+[12.059814] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[12.060036] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.060169] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[12.060262] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[12.065181] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces\n'}
+[12.065250] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv\n'}
+[12.065313] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[12.065375] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.065438] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/srv/detail/ore_position__type_support.cpp\n'}
+[12.065500] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg\n'}
+[12.065561] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[12.065623] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__type_support.cpp\n'}
+[12.065704] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.065791] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__type_support.cpp\n'}
+[12.065854] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/include/interfaces/interfaces/msg/detail/ore_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.065916] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[12.065979] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.066041] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[12.066102] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[12.066164] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[12.066224] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[12.066285] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[12.066346] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.066408] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[12.066469] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.066587] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[12.066655] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces\n'}
+[12.066716] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.066777] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.066839] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.066901] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.066987] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.067059] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv\n'}
+[12.067122] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_ore_position_s.c\n'}
+[12.067183] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_ore_position.py\n'}
+[12.067243] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py\n'}
+[12.067305] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[12.067400] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[12.067466] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py\n'}
+[12.067528] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg\n'}
+[12.067589] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_ore_info_s.c\n'}
+[12.067651] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_ore_info.py\n'}
+[12.067711] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_ore_array_s.c\n'}
+[12.067773] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_ore_array.py\n'}
+[12.067834] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py\n'}
+[12.089790] (-) TimerEvent: {}
+[12.111351] (interfaces) StdoutLine: {'line': b"Listing '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...\n"}
+[12.111593] (interfaces) StdoutLine: {'line': b"Compiling '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...\n"}
+[12.111711] (interfaces) StdoutLine: {'line': b"Listing '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...\n"}
+[12.111800] (interfaces) StdoutLine: {'line': b"Compiling '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py'...\n"}
+[12.111919] (interfaces) StdoutLine: {'line': b"Compiling '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_ore_array.py'...\n"}
+[12.112021] (interfaces) StdoutLine: {'line': b"Compiling '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_ore_info.py'...\n"}
+[12.112110] (interfaces) StdoutLine: {'line': b"Listing '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...\n"}
+[12.112200] (interfaces) StdoutLine: {'line': b"Compiling '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py'...\n"}
+[12.112290] (interfaces) StdoutLine: {'line': b"Compiling '/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_ore_position.py'...\n"}
+[12.121429] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.121674] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.121748] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.121886] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.121951] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.122014] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.122141] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[12.122210] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yuanxiao/gold_hw/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""\n'}
+[12.122275] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/msg/OreArray.idl\n'}
+[12.122338] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/msg/OreInfo.idl\n'}
+[12.122400] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/srv/OrePosition.idl\n'}
+[12.122462] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/msg/OreArray.msg\n'}
+[12.122525] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/msg/OreInfo.msg\n'}
+[12.122609] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/srv/OrePosition.srv\n'}
+[12.122695] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/srv/OrePosition_Request.msg\n'}
+[12.122759] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/srv/OrePosition_Response.msg\n'}
+[12.122827] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[12.122890] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[12.122952] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[12.123015] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[12.123076] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/environment/path.sh\n'}
+[12.123152] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[12.123217] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/local_setup.bash\n'}
+[12.123287] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/local_setup.sh\n'}
+[12.123350] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[12.123454] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[12.123535] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/package.dsv\n'}
+[12.123610] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[12.123675] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[12.123739] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.123802] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.123864] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.123926] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[12.123988] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.124050] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.124111] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.124172] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.124281] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[12.124367] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.124919] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.125144] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.125525] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[12.125915] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.126190] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[12.126588] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.126906] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[12.127297] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.127592] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.127933] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.128185] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.128651] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.128892] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.129276] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[12.129651] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[12.132232] (interfaces) StdoutLine: {'line': b'-- Installing: /home/yuanxiao/gold_hw/install/interfaces/share/interfaces/package.xml\n'}
+[12.139835] (interfaces) CommandEnded: {'returncode': 0}
+[12.191142] (-) TimerEvent: {}
+[12.265972] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[12.266900] (-) EventReactorShutdown: {}

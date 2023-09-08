@@ -1,0 +1,48 @@
+[0.036s] Invoking command in '/home/yuanxiao/gold_hw/build/gold_miner': CMAKE_PREFIX_PATH=/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yuanxiao/gold_hw/build/gold_miner -- -j4 -l4
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target mining_industry[0m
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target miner[0m
+[0.122s] [ 25%] [32mBuilding CXX object CMakeFiles/mining_industry.dir/src/mining_industry.cpp.o[0m
+[0.130s] [ 50%] [32mBuilding CXX object CMakeFiles/miner.dir/src/miner.cpp.o[0m
+[2.768s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:[m[K In member function ‘[01m[Kvoid Miner::oreInfoCallback(const OreArray&)[m[K’:
+[2.768s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:53:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst struct interfaces::msg::OreInfo_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kid[m[K’
+[2.768s]    53 |         request->id = msg.ores[minPosition].[01;31m[Kid[m[K;
+[2.768s]       |                                             [01;31m[K^~[m[K
+[2.769s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:55:43:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+[2.769s]    55 |         while (!client_->wait_for_service([01;31m[K1s[m[K)) {
+[2.769s]       |                                           [01;31m[K^~[m[K
+[2.769s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:58:24:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.769s]    58 |                 return [01;31m[K0[m[K;
+[2.769s]       |                        [01;31m[K^[m[K
+[2.769s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.770s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.770s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.770s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.770s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.770s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.770s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.770s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.770s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.770s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.770s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.770s]                  from [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:1[m[K:
+[2.770s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:63:98:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst struct interfaces::msg::OreInfo_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kid[m[K’
+[2.770s]    63 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "I need the ore id:%ld", msg.ores[minPosition].[01;31m[Kid[m[K);
+[2.770s]       |                                                                                                  [01;31m[K^~[m[K
+[2.771s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:67:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[2.771s]    67 |         if (rclcpp::spin_until_future_complete(Node[01;31m[K,[m[K result) ==
+[2.771s]       |                                                    [01;31m[K^[m[K
+[2.854s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:[m[K In member function ‘[01m[Kvoid MiningIndustry::publishOreInfo()[m[K’:
+[2.854s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:43:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing OreInfo = struct interfaces::msg::OreInfo_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct interfaces::msg::OreInfo_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kid[m[K’
+[2.854s]    43 |             ore.[01;31m[Kid[m[K = i;
+[2.854s]       |                 [01;31m[K^~[m[K
+[2.864s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:[m[K In member function ‘[01m[Kvoid MiningIndustry::srvr(std::shared_ptr<interfaces::srv::OrePosition_Request_<std::allocator<void> > >, std::shared_ptr<interfaces::srv::OrePosition_Response_<std::allocator<void> > >)[m[K’:
+[2.864s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:64:29:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<interfaces::msg::OreInfo_<std::allocator<void> > >, interfaces::msg::OreInfo_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kstruct interfaces::msg::OreInfo_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kid[m[K’
+[2.864s]    64 |             if(ores.ores[i].[01;31m[Kid[m[K == request->id)
+[2.864s]       |                             [01;31m[K^~[m[K
+[4.394s] gmake[2]: *** [CMakeFiles/mining_industry.dir/build.make:76: CMakeFiles/mining_industry.dir/src/mining_industry.cpp.o] Error 1
+[4.394s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/mining_industry.dir/all] Error 2
+[4.394s] gmake[1]: *** Waiting for unfinished jobs....
+[6.196s] gmake[2]: *** [CMakeFiles/miner.dir/build.make:76: CMakeFiles/miner.dir/src/miner.cpp.o] Error 1
+[6.197s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/miner.dir/all] Error 2
+[6.197s] gmake: *** [Makefile:146: all] Error 2
+[6.203s] Invoked command in '/home/yuanxiao/gold_hw/build/gold_miner' returned '2': CMAKE_PREFIX_PATH=/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yuanxiao/gold_hw/build/gold_miner -- -j4 -l4

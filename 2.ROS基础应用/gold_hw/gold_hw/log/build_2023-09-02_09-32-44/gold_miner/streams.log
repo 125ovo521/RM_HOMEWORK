@@ -1,0 +1,22 @@
+[0.034s] Invoking command in '/home/yuanxiao/gold_hw/build/gold_miner': CMAKE_PREFIX_PATH=/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yuanxiao/gold_hw/build/gold_miner -- -j4 -l4
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target miner[0m
+[0.088s] [ 50%] Built target mining_industry
+[0.095s] [ 75%] [32mBuilding CXX object CMakeFiles/miner.dir/src/miner.cpp.o[0m
+[2.773s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:[m[K In constructor ‘[01m[KMiner::Miner()[m[K’:
+[2.774s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_group_input_[m[K’ was not declared in this scope
+[2.774s]    26 |         [01;31m[Kcallback_group_input_[m[K = this->create_callback_group(rclcpp::callback_group::CallbackGroupType::MutuallyExclusive);
+[2.774s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.774s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:26:69:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::callback_group[m[K’ has not been declared
+[2.774s]    26 |         callback_group_input_ = this->create_callback_group(rclcpp::[01;31m[Kcallback_group[m[K::CallbackGroupType::MutuallyExclusive);
+[2.774s]       |                                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.781s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:[m[K In member function ‘[01m[Kvoid Miner::oreInfoCallback(const OreArray&)[m[K’:
+[2.781s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:78:14:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto result[m[K’
+[2.781s]    78 |         auto [01;31m[Kresult[m[K = client_->async_send_request(request, inner_client_callback);
+[2.782s]       |              [01;31m[K^~~~~~[m[K
+[2.782s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:69:14:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Krclcpp::Client<interfaces::srv::OrePosition>::FutureAndRequestId result[m[K’
+[2.782s]    69 |         auto [01;36m[Kresult[m[K = client_->async_send_request(request);
+[2.782s]       |              [01;36m[K^~~~~~[m[K
+[5.568s] gmake[2]: *** [CMakeFiles/miner.dir/build.make:76: CMakeFiles/miner.dir/src/miner.cpp.o] Error 1
+[5.568s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/miner.dir/all] Error 2
+[5.568s] gmake: *** [Makefile:146: all] Error 2
+[5.570s] Invoked command in '/home/yuanxiao/gold_hw/build/gold_miner' returned '2': CMAKE_PREFIX_PATH=/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yuanxiao/gold_hw/build/gold_miner -- -j4 -l4

@@ -1,0 +1,4 @@
+source;share/gold_miner/local_setup.bash
+source;share/gold_miner/local_setup.dsv
+source;share/gold_miner/local_setup.sh
+source;share/gold_miner/local_setup.zsh

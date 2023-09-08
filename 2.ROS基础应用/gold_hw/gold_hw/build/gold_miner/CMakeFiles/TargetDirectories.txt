@@ -1,0 +1,11 @@
+/home/yuanxiao/gold_hw/build/gold_miner/CMakeFiles/uninstall.dir
+/home/yuanxiao/gold_hw/build/gold_miner/CMakeFiles/gold_miner_uninstall.dir
+/home/yuanxiao/gold_hw/build/gold_miner/CMakeFiles/mining_industry.dir
+/home/yuanxiao/gold_hw/build/gold_miner/CMakeFiles/miner.dir
+/home/yuanxiao/gold_hw/build/gold_miner/CMakeFiles/test.dir
+/home/yuanxiao/gold_hw/build/gold_miner/CMakeFiles/edit_cache.dir
+/home/yuanxiao/gold_hw/build/gold_miner/CMakeFiles/rebuild_cache.dir
+/home/yuanxiao/gold_hw/build/gold_miner/CMakeFiles/list_install_components.dir
+/home/yuanxiao/gold_hw/build/gold_miner/CMakeFiles/install.dir
+/home/yuanxiao/gold_hw/build/gold_miner/CMakeFiles/install/local.dir
+/home/yuanxiao/gold_hw/build/gold_miner/CMakeFiles/install/strip.dir

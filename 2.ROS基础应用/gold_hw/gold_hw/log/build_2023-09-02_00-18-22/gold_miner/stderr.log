@@ -1,0 +1,11 @@
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:[m[K In member function ‘[01m[Kvoid MiningIndustry::publishOreInfo()[m[K’:
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:43:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing OreInfo = struct interfaces::msg::OreInfo_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct interfaces::msg::OreInfo_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kid[m[K’
+   43 |             ore.[01;31m[Kid[m[K = i;
+      |                 [01;31m[K^~[m[K
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:[m[K In member function ‘[01m[Kvoid MiningIndustry::srvr(std::shared_ptr<interfaces::srv::OrePosition_Request_<std::allocator<void> > >, std::shared_ptr<interfaces::srv::OrePosition_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:64:29:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<interfaces::msg::OreInfo_<std::allocator<void> > >, interfaces::msg::OreInfo_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kstruct interfaces::msg::OreInfo_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kid[m[K’
+   64 |             if(ores.ores[i].[01;31m[Kid[m[K == request->id)
+      |                             [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/mining_industry.dir/build.make:76: CMakeFiles/mining_industry.dir/src/mining_industry.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/mining_industry.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

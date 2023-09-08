@@ -1,0 +1,16 @@
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:[m[K In member function ‘[01m[Kvoid Miner::oreInfoCallback(const OreArray&)[m[K’:
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:37:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst struct interfaces::msg::OreInfo_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kopsition[m[K’; did you mean ‘[01m[Kposition[m[K’?
+   37 |             float_t mid = Distance(msg.ores[i].[01;31m[Kopsition[m[K.x, msg.ores[i].opsition.y,msg.ores[i].opsition.z);
+      |                                                [01;31m[K^~~~~~~~[m[K
+      |                                                [32m[Kposition[m[K
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:37:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst struct interfaces::msg::OreInfo_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kopsition[m[K’; did you mean ‘[01m[Kposition[m[K’?
+   37 |  float_t mid = Distance(msg.ores[i].opsition.x, msg.ores[i].[01;31m[Kopsition[m[K.y,msg.ores[i].opsition.z);
+      |                                                             [01;31m[K^~~~~~~~[m[K
+      |                                                             [32m[Kposition[m[K
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:37:95:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst struct interfaces::msg::OreInfo_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kopsition[m[K’; did you mean ‘[01m[Kposition[m[K’?
+   37 | (msg.ores[i].opsition.x, msg.ores[i].opsition.y,msg.ores[i].[01;31m[Kopsition[m[K.z);
+      |                                                             [01;31m[K^~~~~~~~[m[K
+      |                                                             [32m[Kposition[m[K
+gmake[2]: *** [CMakeFiles/miner.dir/build.make:76: CMakeFiles/miner.dir/src/miner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/miner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

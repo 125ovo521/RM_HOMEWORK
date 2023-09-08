@@ -1,0 +1,10 @@
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:[m[K In member function ‘[01m[Kvoid Miner::oreInfoCallback(const OreArray&)[m[K’:
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:57:68:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   57 |         while (!client_->wait_for_service(std::chrono::seconds(1)))[01;31m[K)[m[K {
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:69:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+   69 |         if (rclcpp::spin_until_future_complete(Miner[01;31m[K,[m[K result) ==
+      |                                                     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/miner.dir/build.make:76: CMakeFiles/miner.dir/src/miner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/miner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

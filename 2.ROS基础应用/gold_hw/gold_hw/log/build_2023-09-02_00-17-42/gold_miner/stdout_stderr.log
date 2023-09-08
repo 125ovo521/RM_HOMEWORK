@@ -1,0 +1,47 @@
+[35m[1mConsolidate compiler generated dependencies of target miner[0m
+[35m[1mConsolidate compiler generated dependencies of target mining_industry[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mining_industry.dir/src/mining_industry.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/miner.dir/src/miner.cpp.o[0m
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:[m[K In member function ‘[01m[Kvoid MiningIndustry::publishOreInfo()[m[K’:
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:43:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing OreInfo = struct interfaces::msg::OreInfo_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct interfaces::msg::OreInfo_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kid[m[K’
+   43 |             ore.[01;31m[Kid[m[K = i;
+      |                 [01;31m[K^~[m[K
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:[m[K In member function ‘[01m[Kvoid MiningIndustry::srvr(std::shared_ptr<interfaces::srv::OrePosition_Request_<std::allocator<void> > >, std::shared_ptr<interfaces::srv::OrePosition_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:64:29:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<interfaces::msg::OreInfo_<std::allocator<void> > >, interfaces::msg::OreInfo_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kstruct interfaces::msg::OreInfo_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kid[m[K’
+   64 |             if(ores.ores[i].[01;31m[Kid[m[K == request->id)
+      |                             [01;31m[K^~[m[K
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:[m[K In member function ‘[01m[Kvoid Miner::oreInfoCallback(const OreArray&)[m[K’:
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:53:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst struct interfaces::msg::OreInfo_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kid[m[K’
+   53 |         request->id = msg.ores[minPosition].[01;31m[Kid[m[K;
+      |                                             [01;31m[K^~[m[K
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:55:43:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+   55 |         while (!client_->wait_for_service([01;31m[K1s[m[K)) {
+      |                                           [01;31m[K^~[m[K
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:58:24:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   58 |                 return [01;31m[K0[m[K;
+      |                        [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:1[m[K:
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:63:98:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst struct interfaces::msg::OreInfo_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kid[m[K’
+   63 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "I need the ore id:%ld", msg.ores[minPosition].[01;31m[Kid[m[K);
+      |                                                                                                  [01;31m[K^~[m[K
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:67:48:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+   67 |         if (rclcpp::spin_until_future_complete([01;31m[Knode[m[K, result) ==
+      |                                                [01;31m[K^~~~[m[K
+      |                                                [32m[KNode[m[K
+gmake[2]: *** [CMakeFiles/mining_industry.dir/build.make:76: CMakeFiles/mining_industry.dir/src/mining_industry.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/mining_industry.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/miner.dir/build.make:76: CMakeFiles/miner.dir/src/miner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/miner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

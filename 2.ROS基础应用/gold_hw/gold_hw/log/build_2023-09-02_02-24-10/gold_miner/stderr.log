@@ -1,0 +1,7 @@
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:[m[K In constructor ‘[01m[KMiner::Miner()[m[K’:
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:25:38:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::node[m[K’ has not been declared
+   25 |         if (rclcpp::ok() && !rclcpp::[01;31m[Knode[m[K::Node::get_node_by_name("miner")) {
+      |                                      [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/miner.dir/build.make:76: CMakeFiles/miner.dir/src/miner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/miner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

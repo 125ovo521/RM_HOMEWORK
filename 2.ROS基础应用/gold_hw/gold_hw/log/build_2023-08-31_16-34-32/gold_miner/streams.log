@@ -1,0 +1,31 @@
+[0.022s] Invoking command in '/home/yuanxiao/gold_hw/build/gold_miner': CMAKE_PREFIX_PATH=/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yuanxiao/gold_hw/build/gold_miner -- -j4 -l4
+[0.109s] [ 50%] Built target mining_industry
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target miner[0m
+[0.128s] [ 75%] [32mBuilding CXX object CMakeFiles/miner.dir/src/miner.cpp.o[0m
+[2.706s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:[m[K In member function ‘[01m[Kvoid Miner::oreInfoCallback(const OreArray&)[m[K’:
+[2.706s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:36:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ki[m[K’
+[2.706s]    36 |         for (size_t _t [01;31m[Ki[m[K = 0; i < n_; ++i) {
+[2.707s]       |                        [01;31m[K^[m[K
+[2.713s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:36:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[2.713s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:36:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[2.713s]    36 |         for (size_t _t i = 0; i < n_[01;31m[K;[m[K ++i) {
+[2.713s]       |                                     [01;31m[K^[m[K
+[2.713s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:36:13:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.713s]    36 |         for [01;36m[K([m[Ksize_t _t i = 0; i < n_; ++i) {
+[2.713s]       |             [01;36m[K^[m[K
+[2.713s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:36:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kfor[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[2.714s]    36 |         [01;35m[Kfor[m[K (size_t _t i = 0; i < n_; ++i) {
+[2.714s]       |         [01;35m[K^~~[m[K
+[2.714s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:36:39:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kfor[m[K’
+[2.714s]    36 |         for (size_t _t i = 0; i < n_; [01;36m[K++[m[Ki) {
+[2.714s]       |                                       [01;36m[K^~[m[K
+[2.714s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:36:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[K_t[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.714s]    36 |         for (size_t [01;35m[K_t[m[K i = 0; i < n_; ++i) {
+[2.714s]       |                     [01;35m[K^~[m[K
+[2.718s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:36:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[2.718s]    36 |         for (size_t _t i = 0; i < n_; ++[01;31m[Ki[m[K) {
+[2.718s]       |                                         [01;31m[K^[m[K
+[5.502s] gmake[2]: *** [CMakeFiles/miner.dir/build.make:76: CMakeFiles/miner.dir/src/miner.cpp.o] Error 1
+[5.502s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/miner.dir/all] Error 2
+[5.502s] gmake: *** [Makefile:146: all] Error 2
+[5.505s] Invoked command in '/home/yuanxiao/gold_hw/build/gold_miner' returned '2': CMAKE_PREFIX_PATH=/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yuanxiao/gold_hw/build/gold_miner -- -j4 -l4

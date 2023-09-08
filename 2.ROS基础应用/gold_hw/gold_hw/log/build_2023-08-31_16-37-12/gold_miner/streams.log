@@ -1,0 +1,21 @@
+[0.027s] Invoking command in '/home/yuanxiao/gold_hw/build/gold_miner': CMAKE_PREFIX_PATH=/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yuanxiao/gold_hw/build/gold_miner -- -j4 -l4
+[0.087s] [ 50%] Built target mining_industry
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target miner[0m
+[0.122s] [ 75%] [32mBuilding CXX object CMakeFiles/miner.dir/src/miner.cpp.o[0m
+[2.559s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:[m[K In member function ‘[01m[Kvoid Miner::oreInfoCallback(const OreArray&)[m[K’:
+[2.559s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:37:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst struct interfaces::msg::OreInfo_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kopsition[m[K’; did you mean ‘[01m[Kposition[m[K’?
+[2.559s]    37 |             float_t mid = Distance(msg.ores[i].[01;31m[Kopsition[m[K.x, msg.ores[i].opsition.y,msg.ores[i].opsition.z);
+[2.559s]       |                                                [01;31m[K^~~~~~~~[m[K
+[2.559s]       |                                                [32m[Kposition[m[K
+[2.559s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:37:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst struct interfaces::msg::OreInfo_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kopsition[m[K’; did you mean ‘[01m[Kposition[m[K’?
+[2.560s]    37 |  float_t mid = Distance(msg.ores[i].opsition.x, msg.ores[i].[01;31m[Kopsition[m[K.y,msg.ores[i].opsition.z);
+[2.560s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[2.560s]       |                                                             [32m[Kposition[m[K
+[2.560s] [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:37:95:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst struct interfaces::msg::OreInfo_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kopsition[m[K’; did you mean ‘[01m[Kposition[m[K’?
+[2.560s]    37 | (msg.ores[i].opsition.x, msg.ores[i].opsition.y,msg.ores[i].[01;31m[Kopsition[m[K.z);
+[2.560s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[2.560s]       |                                                             [32m[Kposition[m[K
+[5.208s] gmake[2]: *** [CMakeFiles/miner.dir/build.make:76: CMakeFiles/miner.dir/src/miner.cpp.o] Error 1
+[5.213s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/miner.dir/all] Error 2
+[5.214s] gmake: *** [Makefile:146: all] Error 2
+[5.216s] Invoked command in '/home/yuanxiao/gold_hw/build/gold_miner' returned '2': CMAKE_PREFIX_PATH=/home/yuanxiao/gold_hw/install/interfaces:/home/yuanxiao/gold_hw/install/gold_miner:/home/yuanxiao/dev_ws/install/learning_pkg_c:/home/yuanxiao/dev_ws/install/learning_interface:/home/yuanxiao/dev_ws/install/learning_urdf:/home/yuanxiao/dev_ws/install/learning_topic:/home/yuanxiao/dev_ws/install/learning_tf:/home/yuanxiao/dev_ws/install/learning_service:/home/yuanxiao/dev_ws/install/learning_qos:/home/yuanxiao/dev_ws/install/learning_pkg_python:/home/yuanxiao/dev_ws/install/learning_parameter:/home/yuanxiao/dev_ws/install/learning_node:/home/yuanxiao/dev_ws/install/learning_launch:/home/yuanxiao/dev_ws/install/learning_action:/home/yuanxiao/dev_ws/install/learning_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/yuanxiao/gold_hw/build/gold_miner -- -j4 -l4

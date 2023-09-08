@@ -1,0 +1,8 @@
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:[m[K In member function ‘[01m[Kvoid MiningIndustry::srvr(std::shared_ptr<interfaces::srv::OrePosition_Request_<std::allocator<void> > >, std::shared_ptr<interfaces::srv::OrePosition_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/mining_industry.cpp:144:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kores[m[K’ was not declared in this scope; did you mean ‘[01m[Kore[m[K’?
+  144 |         for (auto& ore : [01;31m[Kores[m[K.ores) {
+      |                          [01;31m[K^~~~[m[K
+      |                          [32m[Kore[m[K
+gmake[2]: *** [CMakeFiles/mining_industry.dir/build.make:76: CMakeFiles/mining_industry.dir/src/mining_industry.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/mining_industry.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

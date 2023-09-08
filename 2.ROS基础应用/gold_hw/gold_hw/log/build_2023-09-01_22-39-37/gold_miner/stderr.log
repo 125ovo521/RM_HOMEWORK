@@ -1,0 +1,53 @@
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:[m[K In member function ‘[01m[Kvoid Miner::oreInfoCallback(const OreArray&)[m[K’:
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:36:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kunordered[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kisunordered[m[K’?
+   36 |         std::[01;31m[Kunordered[m[K<float, > dis;     //yong nage nidongde
+      |              [01;31m[K^~~~~~~~~[m[K
+      |              [32m[Kisunordered[m[K
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:36:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+   36 |         std::unordered<[01;31m[Kfloat[m[K, > dis;     //yong nage nidongde
+      |                        [01;31m[K^~~~~[m[K
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:40:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdis[m[K’ was not declared in this scope; did you mean ‘[01m[Kdiv[m[K’?
+   40 |             [01;31m[Kdis[m[K.push_back(mid);
+      |             [01;31m[K^~~[m[K
+      |             [32m[Kdiv[m[K
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:42:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kdis[m[K’ was not declared in this scope; did you mean ‘[01m[Kdiv[m[K’?
+   42 |         size_t minPosition = min_element([01;31m[Kdis[m[K.begin(),dis.end()) - dis.begin();
+      |                                          [01;31m[K^~~[m[K
+      |                                          [32m[Kdiv[m[K
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:42:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_element[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::min_element[m[K’?
+   42 |         size_t minPosition = [01;31m[Kmin_element[m[K(dis.begin(),dis.end()) - dis.begin();
+      |                              [01;31m[K^~~~~~~~~~~[m[K
+      |                              [32m[Kstd::min_element[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:1[m[K:
+[01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:520:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::min_element[m[K’ declared here
+  520 | [01;36m[Kmin_element[m[K(_ExecutionPolicy&& __exec, _ForwardIterator __first, _ForwardIterator __last);
+      | [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:1[m[K:
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:43:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   43 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"The first ore's information : id:%d, x:%f, y:%f, z:%f, type:%s, value:%f"[m[K, msg.ores[1].num, msg.ores[1].position.x,msg.ores[1].position.y,msg.ores[1].position.z, msg.ores[1].type.c_str(), msg.ores[1].value);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yuanxiao/gold_hw/src/gold_miner/src/miner.cpp:43:76:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   43 |         RCLCPP_INFO(this->get_logger(), "The first ore's information : id:[01;36m[K%d[m[K, x:%f, y:%f, z:%f, type:%s, value:%f", msg.ores[1].num, msg.ores[1].position.x,msg.ores[1].position.y,msg.ores[1].position.z, msg.ores[1].type.c_str(), msg.ores[1].value);
+      |                                                                           [01;36m[K~^[m[K
+      |                                                                            [01;36m[K|[m[K
+      |                                                                            [01;36m[Kint[m[K
+      |                                                                           [32m[K%ld[m[K
+gmake[2]: *** [CMakeFiles/miner.dir/build.make:76: CMakeFiles/miner.dir/src/miner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/miner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
